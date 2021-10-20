@@ -4,7 +4,7 @@ import ListItemController from "./../controllers/listItemController.js";
 const ListItemInstance = new ListItemController();
 
 /* GET home page. */
-Router.get("/api/items/:query", (req, res, next) => {
+Router.get("/api/items", (req, res, next) => {
   ListItemInstance.getItems(req, res);
 });
 
