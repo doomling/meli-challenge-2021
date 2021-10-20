@@ -1,0 +1,13 @@
+@import "../../style.scss";
+
+nav {
+  background: $meli-yellow;
+  margin: 0;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+
+  .logo {
+    margin-right: 30px;
+  }
+}
