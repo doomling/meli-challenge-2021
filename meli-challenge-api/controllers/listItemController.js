@@ -1,18 +1,20 @@
 import axios from "axios";
 
 class ListItemController {
-  async getItems(req, res) {
-    const { query } = req.params;
+  getDecimals(number) {
+    return (number - Math.floor(number)).toFixed(2);
+  }
 
-    if (query) {
+  async getItems(req, res) {
+    const { q } = req.query;
+
+    if (q) {
       try {
         const rawItemData = await axios.get(
-          `https://api.mercadolibre.com/sites/MLA/search?q=${query}`
+          `https://api.mercadolibre.com/sites/MLA/search?q=${q}`
         );
 
         const { data } = rawItemData;
-
-        console.log(data);
 
         const categoryData = data.available_filters.find((filter) => {
           return filter.id == "category";
@@ -29,7 +31,7 @@ class ListItemController {
             price: {
               currency: item.currency_id,
               amount: item.price,
-              decimals: (item.price - Math.floor(item.price)).toFixed(2),
+              decimals: this.getDecimals(item.price),
             },
             picture: item.thumbnail,
             condition: item.condition,
@@ -48,10 +50,62 @@ class ListItemController {
 
         res.json(response);
       } catch (e) {
-        return res.send(500);
+        return res.sendStatus(500);
       }
     } else {
-      return res.send(400);
+      return res.sendStatus(400);
+    }
+  }
+
+  async getItemById(req, res) {
+    const { id } = req.params;
+
+    if (id) {
+      try {
+        const rawItemData = await axios.get(
+          `https://api.mercadolibre.com/items/${id}`
+        );
+
+        const rawItemDescription = await axios.get(
+          `https://api.mercadolibre.com/items/${id}/description`
+        );
+
+        const itemValues = await Promise.all([rawItemData, rawItemDescription]);
+
+        const itemData = itemValues.reduce((prev, current) => {
+          const item = { ...prev.data, ...current.data };
+          return item;
+        });
+
+        const item = {
+          id: itemData.id,
+          title: itemData.title,
+          price: {
+            currency: itemData.currency_id,
+            amount: itemData.price,
+            decimals: this.getDecimals(itemData.price),
+          },
+          picture: itemData.thumbnail,
+          condition: itemData.condition,
+          free_shipping: itemData.shipping?.free_shipping,
+          sold_quantity: itemData.sold_quantity,
+          description: itemData.plain_text,
+        };
+
+        const response = {
+          author: {
+            name: "Bel",
+            lastname: "Rey",
+          },
+          item,
+        };
+
+        res.json(response);
+      } catch (e) {
+        return res.sendStatus(500);
+      }
+    } else {
+      return res.sendStatus(400);
     }
   }
 }

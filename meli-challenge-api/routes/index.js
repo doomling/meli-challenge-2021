@@ -3,9 +3,12 @@ const Router = Express.Router();
 import ListItemController from "./../controllers/listItemController.js";
 const ListItemInstance = new ListItemController();
 
-/* GET home page. */
 Router.get("/api/items", (req, res, next) => {
   ListItemInstance.getItems(req, res);
+});
+
+Router.get("/api/items/:id", (req, res, next) => {
+  ListItemInstance.getItemById(req, res);
 });
 
 export default Router;
