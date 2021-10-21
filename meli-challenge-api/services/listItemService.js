@@ -8,7 +8,7 @@ class ListItemService {
   async getItems(q) {
     try {
       const rawItemData = await axios.get(
-        `https://api.mercadolibre.com/sites/MLA/search?q=${q}`
+        `https://api.mercadolibre.com/sites/MLA/search?q=${q}&limit=4`
       );
 
       const { data } = rawItemData;
