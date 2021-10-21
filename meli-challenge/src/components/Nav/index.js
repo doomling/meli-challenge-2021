@@ -4,10 +4,13 @@ import "./style.scss";
 const Nav = () => {
   return (
     <nav>
-      <img
-        src="https://doomvault.nyc3.digitaloceanspaces.com/challenge-meli/logo-small.png"
-        className="logo"
-      />
+      <a href="/">
+        <img
+          src="https://doomvault.nyc3.digitaloceanspaces.com/challenge-meli/logo-small.png"
+          className="logo"
+          alt="Logo Mercado Libre"
+        />
+      </a>
       <Search />
     </nav>
   );

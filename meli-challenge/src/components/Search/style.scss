@@ -27,6 +27,10 @@
     top: 0;
     right: 0;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     img {
       width: 20px;
     }

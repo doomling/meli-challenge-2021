@@ -1,0 +1,10 @@
+@import "../../style.scss";
+
+.item-list-container {
+  background: $space-grey;
+  margin: 0;
+
+  .logo {
+    margin-right: 30px;
+  }
+}

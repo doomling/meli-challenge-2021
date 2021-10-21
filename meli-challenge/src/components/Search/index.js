@@ -1,31 +1,37 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
+import { useHistory } from "react-router";
 import axios from "axios";
 import "./style.scss";
 
-const Search = () => {
+const Search = (props) => {
+  const history = useHistory();
   const [term, setTerm] = useState();
+  const [results, setResults] = useState("");
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     const { value } = e.target;
     setTerm(value);
   };
 
-  const getData = async term => {
-    const data = await axios.get(`http://localhost:3001/api/items?q=${term}`);
-    console.log(data, 999);
-    return data;
+  const getData = async (term) => {
+    console.log(history);
+    history.push(`/items/?q=${term ?? ""}`);
   };
 
   const handleClick = () => {
-    getData(term);
+    if (term) {
+      getData(term);
+    }
   };
 
-  const handleEnter = e => {
-    const { keyCode } = e;
-    if (keyCode !== 13) {
-      return;
-    } else {
-      getData(term);
+  const handleEnter = (e) => {
+    if (term) {
+      const { keyCode } = e;
+      if (keyCode !== 13) {
+        return;
+      } else {
+        getData(term);
+      }
     }
   };
 
