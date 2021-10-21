@@ -1,7 +1,8 @@
 import Express from "express";
 const Router = Express.Router();
 import ListItemController from "./../controllers/listItemController.js";
-const ListItemInstance = new ListItemController();
+import ListItemService from "./../services/listItemService.js";
+const ListItemInstance = new ListItemController(new ListItemService());
 
 Router.get("/api/items", (req, res, next) => {
   ListItemInstance.getItems(req, res);
