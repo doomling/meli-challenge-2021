@@ -1,8 +1,12 @@
 @import "../../style.scss";
 
 .item-list-container {
-  background: $space-grey;
-  margin: 0;
+  background: #fff;
+  width: 60%;
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 10px;
+  border-radius: 5px;
 
   .logo {
     margin-right: 30px;

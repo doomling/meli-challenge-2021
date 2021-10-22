@@ -1,13 +1,44 @@
 @import "../../style.scss";
 
-nav {
-  background: $meli-yellow;
-  margin: 0;
+.item-container {
   display: flex;
+  background: #fff;
+  margin: auto;
   padding: 10px;
-  justify-content: center;
+  border-bottom: 1px solid $space-grey;
+  align-items: center;
+  cursor: pointer;
 
-  .logo {
-    margin-right: 30px;
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  .item-picture {
+    width: 100px;
+    margin: 0 40px 0 20px;
+  }
+
+  .item-details {
+    flex: 1;
+  }
+
+  .item-price {
+    font-size: 1.5em;
+  }
+
+  .item-like {
+    width: 50px;
+
+    img {
+      display: none;
+    }
+  }
+
+  &:hover {
+    .item-like {
+      img {
+        display: block;
+      }
+    }
   }
 }

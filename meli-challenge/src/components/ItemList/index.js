@@ -24,8 +24,6 @@ const ItemList = () => {
     }
   };
 
-  console.log(data, error);
-
   return (
     <section className="item-list-container">
       {data ? (

@@ -7,13 +7,18 @@ const Item = ({ data }) => {
 
   console.log(data);
   return (
-    <div>
-      <img src={picture} />
-      <div>
-        <span>${amount}</span>
+    <div className="item-container">
+      <img src={picture} className="item-picture" />
+      <div className="item-details">
+        <span className="item-price">${amount}</span>
+        {free_shipping && (
+          <img src="https://doomvault.nyc3.digitaloceanspaces.com/challenge-meli/shipping.png" />
+        )}
         <p>{title}</p>
       </div>
-      <div>{free_shipping && "envio gratis"}</div>
+      <div className="item-like">
+        <img src="https://doomvault.nyc3.digitaloceanspaces.com/challenge-meli/heart.png" />
+      </div>
     </div>
   );
 };
