@@ -52,6 +52,7 @@ class ListItemService {
   }
 
   async getItemById(id) {
+    console.log(id);
     try {
       const rawItemData = await axios.get(
         `https://api.mercadolibre.com/items/${id}`
@@ -90,7 +91,6 @@ class ListItemService {
         },
         item
       };
-
       return response;
     } catch (e) {
       return e;
