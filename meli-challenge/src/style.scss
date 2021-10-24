@@ -1,5 +1,7 @@
 $meli-yellow: #fff159;
+$meli-blue: #3483fa;
 $space-grey: #e5e5e5;
+$dark-grey: rgb(100, 100, 100);
 
 $shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 
@@ -15,6 +17,6 @@ input {
   outline: none;
 }
 
-h1 {
-  color: red;
+button {
+  border: none;
 }

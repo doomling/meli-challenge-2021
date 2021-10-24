@@ -4,7 +4,7 @@ import axios from "axios";
 import Item from "../Item";
 import "./style.scss";
 
-const ItemDetail = props => {
+const ItemDetail = (props) => {
   const { id } = props.match?.params;
   const [data, setData] = useState();
   const [error, setError] = useState(false);
@@ -15,7 +15,9 @@ const ItemDetail = props => {
     getData(id);
   }, []);
 
-  const getData = async term => {
+  console.log(data);
+
+  const getData = async (term) => {
     setError(false);
     try {
       const response = await axios.get(
@@ -32,17 +34,30 @@ const ItemDetail = props => {
   };
 
   return (
-    <section className="item-detail-container">
+    <section className="item-detail-wrapper">
       {data && (
-        <div className="item-detail">
-          <img src={data.picture} />
+        <div className="item-detail-box">
+          <div className="item-detail-container">
+            <img src={data.picture} />
+            <div className="item-detail-information">
+              <span className="item-subtitle">
+                {data.condition === "new" ? "Nuevo" : "Usado"} |
+                {data.sold_quantity} vendidos
+              </span>
+              <h1 className="item-detail-title">{data.title}</h1>
+              <div className="item-detail-price">
+                <span>$</span>
+                <span>{data.price.amount}</span>
+                <sup className="item-detail-decimals">
+                  {data.price.decimals}
+                </sup>
+              </div>
+              <button>Comprar</button>
+            </div>
+          </div>
           <div>
-            {data.condition} - {data.sold_quantity}
-            <h1>
-              <span>$</span>
-              <span>{data.price.amount}</span>
-            </h1>
-            <button>Comprar</button>
+            <h2>Descripción del producto</h2>
+            <p>{data.description}</p>
           </div>
         </div>
       )}

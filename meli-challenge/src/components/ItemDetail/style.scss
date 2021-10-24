@@ -1,14 +1,55 @@
 @import "../../style.scss";
 
-.item-list-container {
-  background: #fff;
+.item-detail-wrapper {
   width: 60%;
   max-width: 900px;
   margin: 20px auto 0;
-  padding: 10px;
-  border-radius: 5px;
 
-  .logo {
-    margin-right: 30px;
+  .item-detail-box {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+
+    .item-detail-container {
+      display: flex;
+
+      .item-detail-information {
+        width: 40%;
+      }
+
+      .item-subtitle {
+        color: $dark-grey;
+        font-size: 0.8em;
+      }
+
+      img {
+        width: 300px;
+        flex: 1;
+      }
+
+      .item-detail-price {
+        font-size: 2em;
+
+        .item-detail-decimals {
+          font-size: 0.5em;
+        }
+      }
+
+      button {
+        background-color: $meli-blue;
+        color: #fff;
+        width: 100%;
+        padding: 10px 0;
+        margin: 20px 0 0;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background: lighten($meli-blue, 10%);
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
