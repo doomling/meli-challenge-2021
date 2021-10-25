@@ -17,7 +17,7 @@ afterEach(() => {
   container = null;
 });
 
-it("renders with or without a name", () => {
+it("renders with props", () => {
   act(() => {
     render(<ItemDetail data={itemDetailData} />, container);
   });

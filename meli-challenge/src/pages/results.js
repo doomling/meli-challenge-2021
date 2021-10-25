@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import axios from "axios";
+import axiosClient from "./../../utils/axiosClient.js";
 import ItemList from "../components/ItemList";
 
 const Results = (props) => {
@@ -19,9 +19,7 @@ const Results = (props) => {
     setError(false);
     setLoading(true);
     try {
-      const response = await axios.get(
-        `http://localhost:3001/api/items${search}&limit=4`
-      );
+      const response = await axiosClient.get(`/items${search}&limit=4`);
       if (response) {
         setData(response.data.items);
 

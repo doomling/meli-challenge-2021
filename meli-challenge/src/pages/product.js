@@ -1,8 +1,8 @@
 import { React, useEffect, useState } from "react";
 import ItemDetail from "../components/ItemDetail";
-import axios from "axios";
+import axiosClient from "./../../utils/axiosClient.js";
 
-const Results = props => {
+const Results = (props) => {
   const { id } = props.match?.params;
   const [data, setData] = useState();
   const [error, setError] = useState(false);
@@ -11,12 +11,10 @@ const Results = props => {
     getData(id);
   }, [id]);
 
-  const getData = async term => {
+  const getData = async (term) => {
     setError(false);
     try {
-      const response = await axios.get(
-        `http://localhost:3001/api/items/${term}`
-      );
+      const response = await axiosClient.get(`/items/${term}`);
       if (response) {
         setData(response.data.item);
       } else {

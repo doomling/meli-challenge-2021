@@ -10,8 +10,6 @@ const Item = ({ data }) => {
     history.push(`/items/${id ?? ""}`);
   };
 
-  console.log(decimals);
-
   return (
     <div className="item-container" onClick={handleClick}>
       <img src={picture} className="item-picture" />
