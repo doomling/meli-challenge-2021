@@ -1,4 +1,4 @@
-import axios from "axios";
+import client from "./../utils/axiosClient.js";
 
 class ListItemService {
   getDecimals(number) {
@@ -7,42 +7,40 @@ class ListItemService {
 
   async getItems(q) {
     try {
-      const rawItemData = await axios.get(
-        `https://api.mercadolibre.com/sites/MLA/search?q=${q}&limit=4`
-      );
+      const rawItemData = await client.get(`/sites/MLA/search?q=${q}&limit=4`);
 
       const { data } = rawItemData;
 
-      const categoryData = data.available_filters.find(filter => {
+      const categoryData = data.available_filters.find((filter) => {
         return filter.id == "category";
       });
 
-      const categories = categoryData.values.map(category => {
+      const categories = categoryData.values.map((category) => {
         return category;
       });
 
-      const items = data.results.map(item => {
+      const items = data.results.map((item) => {
         return {
           id: item.id,
           title: item.title,
           price: {
             currency: item.currency_id,
             amount: Math.floor(item.price),
-            decimals: this.getDecimals(item.price)
+            decimals: this.getDecimals(item.price),
           },
           picture: item.thumbnail,
           condition: item.condition,
-          free_shipping: item.shipping?.free_shipping
+          free_shipping: item.shipping?.free_shipping,
         };
       });
 
       const response = {
         author: {
           name: "Bel",
-          lastname: "Rey"
+          lastname: "Rey",
         },
         categories,
-        items
+        items,
       };
 
       return response;
@@ -53,13 +51,9 @@ class ListItemService {
 
   async getItemById(id) {
     try {
-      const rawItemData = await axios.get(
-        `https://api.mercadolibre.com/items/${id}`
-      );
+      const rawItemData = await client.get(`/items/${id}`);
 
-      const rawItemDescription = await axios.get(
-        `https://api.mercadolibre.com/items/${id}/description`
-      );
+      const rawItemDescription = await client.get(`/items/${id}/description`);
 
       const itemValues = await Promise.all([rawItemData, rawItemDescription]);
 
@@ -68,8 +62,8 @@ class ListItemService {
         return item;
       });
 
-      const itemCategory = await axios.get(
-        `https://api.mercadolibre.com/categories/${rawItemData.data.category_id}`
+      const itemCategory = await client.get(
+        `/categories/${rawItemData.data.category_id}`
       );
 
       const item = {
@@ -78,22 +72,22 @@ class ListItemService {
         price: {
           currency: itemData.currency_id,
           amount: Math.floor(itemData.price),
-          decimals: this.getDecimals(itemData.price)
+          decimals: this.getDecimals(itemData.price),
         },
         picture: itemData.pictures[0]?.url,
         condition: itemData.condition,
         free_shipping: itemData.shipping?.free_shipping,
         sold_quantity: itemData.sold_quantity,
         description: itemData.plain_text,
-        category: itemCategory.data
+        category: itemCategory.data,
       };
 
       const response = {
         author: {
           name: "Bel",
-          lastname: "Rey"
+          lastname: "Rey",
         },
-        item
+        item,
       };
       return response;
     } catch (e) {

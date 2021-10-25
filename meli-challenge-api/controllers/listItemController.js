@@ -11,7 +11,7 @@ class ListItemController {
     if (q) {
       try {
         const response = await this.ListItemService.getItems(q);
-        res.json(response);
+        return res.json(response);
       } catch (e) {
         return res.sendStatus(500);
       }
@@ -26,7 +26,7 @@ class ListItemController {
     if (id) {
       try {
         const response = await this.ListItemService.getItemById(id);
-        res.json(response);
+        return res.json(response);
       } catch (e) {
         return res.sendStatus(500);
       }
