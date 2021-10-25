@@ -4,10 +4,11 @@
   display: flex;
   background: #fff;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   border-bottom: 1px solid $space-grey;
   align-items: center;
   cursor: pointer;
+  box-sizing: border-box;
 
   &:last-of-type {
     border-bottom: none;
@@ -22,8 +23,19 @@
     flex: 1;
   }
 
+  .item-shipping {
+    margin: 0 0 0 10px;
+  }
+
   .item-price {
     font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+
+    sup {
+      font-size: 0.5em;
+      padding: 0 5px;
+    }
   }
 
   .item-like {
@@ -39,6 +51,24 @@
       img {
         display: block;
       }
+    }
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .item-container {
+    .item-picture {
+      width: 60px;
+      margin: 0 20px 0 0;
+    }
+    .item-details {
+      p {
+        font-size: 0.8em;
+      }
+    }
+
+    .item-like {
+      display: none;
     }
   }
 }

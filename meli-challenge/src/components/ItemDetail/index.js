@@ -1,63 +1,46 @@
-import { React, useEffect, useState } from "react";
-import { useLocation } from "react-router";
-import axios from "axios";
-import Item from "../Item";
+import { React } from "react";
+import Breadcrum from "./../Breadcrum";
 import "./style.scss";
+import { itemDetailData } from "../../tests/__mocks__/mockedData";
 
-const ItemDetail = (props) => {
-  const { id } = props.match?.params;
-  const [data, setData] = useState();
-  const [error, setError] = useState(false);
-
-  console.log(id);
-
-  useEffect(() => {
-    getData(id);
-  }, []);
-
-  console.log(data);
-
-  const getData = async (term) => {
-    setError(false);
-    try {
-      const response = await axios.get(
-        `http://localhost:3001/api/items/${term}`
-      );
-      if (response) {
-        setData(response.data.item);
-      } else {
-        setError(true);
-      }
-    } catch (e) {
-      console.log(e);
-    }
-  };
+const ItemDetail = ({ data }) => {
+  const {
+    picture,
+    condition,
+    sold_quantity,
+    title,
+    price,
+    description,
+    category
+  } = data;
 
   return (
     <section className="item-detail-wrapper">
+      <Breadcrum category={category.name} search={title} />
       {data && (
         <div className="item-detail-box">
           <div className="item-detail-container">
-            <img src={data.picture} />
+            <img src={picture} />
             <div className="item-detail-information">
               <span className="item-subtitle">
-                {data.condition === "new" ? "Nuevo" : "Usado"} |
-                {data.sold_quantity} vendidos
+                {condition === "new" ? "Nuevo" : "Usado"} | {sold_quantity}{" "}
+                vendidos
               </span>
-              <h1 className="item-detail-title">{data.title}</h1>
+              <h1 className="item-detail-title">{title}</h1>
               <div className="item-detail-price">
                 <span>$</span>
-                <span>{data.price.amount}</span>
-                <sup className="item-detail-decimals">
-                  {data.price.decimals}
-                </sup>
+                <span>{price.amount}</span>
+                <sup className="item-detail-decimals">{price.decimals}</sup>
               </div>
               <button>Comprar</button>
             </div>
           </div>
-          <div>
+          <div className="item-detail-description">
             <h2>Descripción del producto</h2>
-            <p>{data.description}</p>
+            <p>
+              {description ??
+                "no hay descripción para el producto seleccionado"}
+            </p>
           </div>
         </div>
       )}

@@ -6,8 +6,19 @@ nav {
   display: flex;
   padding: 10px;
   justify-content: center;
+  align-items: center;
 
   .logo {
     margin-right: 30px;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  nav {
+    padding: 20px 10px;
+  }
+
+  .logo {
+    margin: 0;
   }
 }

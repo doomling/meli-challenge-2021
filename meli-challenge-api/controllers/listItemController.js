@@ -13,7 +13,6 @@ class ListItemController {
         const response = await this.ListItemService.getItems(q);
         res.json(response);
       } catch (e) {
-        console.log(e);
         return res.sendStatus(500);
       }
     } else {

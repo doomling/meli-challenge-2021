@@ -1,39 +1,26 @@
-import { React, useEffect, useState } from "react";
-import { useLocation } from "react-router";
-import axios from "axios";
 import Item from "./../Item";
+import Breadcrum from "./../Breadcrum";
 import "./style.scss";
 
-const ItemList = () => {
-  const location = useLocation();
-  const { search } = location;
-  const [data, setData] = useState();
-  const [error, setError] = useState(false);
-
-  useEffect(() => getData(search), [search]);
-
-  const getData = async (term) => {
-    setError(false);
-    const data = await axios.get(
-      `http://localhost:3001/api/items${term}&limit=4`
-    );
-    if (data) {
-      setData(data.data.items);
-    } else {
-      setError(true);
-    }
-  };
-
+const ItemList = ({ data, category, search }) => {
   return (
-    <section className="item-list-container">
-      {data ? (
-        data.map((item) => {
-          return <Item data={item} key={item.id} />;
-        })
-      ) : (
-        <span>No hay resultados para tu búsqueda</span>
+    <div className="item-list-wrapper">
+      {data && (
+        <Breadcrum
+          category={category.name}
+          search={search.slice(search.indexOf("=") + 1, search.length)}
+        />
       )}
-    </section>
+      <section className="item-list-container">
+        {data ? (
+          data.map(item => {
+            return <Item data={item} key={item.id} />;
+          })
+        ) : (
+          <span>No hay resultados para tu búsqueda</span>
+        )}
+      </section>
+    </div>
   );
 };
 

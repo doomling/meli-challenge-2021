@@ -1,8 +1,8 @@
 @import "../../style.scss";
 
 .item-detail-wrapper {
-  width: 60%;
-  max-width: 900px;
+  width: $width;
+  max-width: $max-width;
   margin: 20px auto 0;
 
   .item-detail-box {
@@ -15,6 +15,8 @@
 
       .item-detail-information {
         width: 40%;
+        padding: 0 20px;
+        box-sizing: border-box;
       }
 
       .item-subtitle {
@@ -25,6 +27,7 @@
       img {
         width: 300px;
         flex: 1;
+        margin-bottom: 20px;
       }
 
       .item-detail-price {
@@ -48,6 +51,27 @@
           background: lighten($meli-blue, 10%);
           transition: all 0.5s ease-in-out;
           cursor: pointer;
+        }
+      }
+    }
+    .item-detail-description {
+      word-break: break-word;
+    }
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .item-detail-wrapper {
+    width: $mobile-width;
+
+    .item-detail-box {
+      width: auto;
+
+      .item-detail-container {
+        flex-direction: column;
+
+        .item-detail-information {
+          width: 100%;
         }
       }
     }

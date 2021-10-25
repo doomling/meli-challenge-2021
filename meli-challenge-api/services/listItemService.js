@@ -2,7 +2,7 @@ import axios from "axios";
 
 class ListItemService {
   getDecimals(number) {
-    return (number - Math.floor(number)).toFixed(2);
+    return (number - Math.floor(number)).toFixed(2).slice(2, 4);
   }
 
   async getItems(q) {
@@ -18,7 +18,7 @@ class ListItemService {
       });
 
       const categories = categoryData.values.map(category => {
-        return category.name;
+        return category;
       });
 
       const items = data.results.map(item => {
@@ -27,7 +27,7 @@ class ListItemService {
           title: item.title,
           price: {
             currency: item.currency_id,
-            amount: item.price,
+            amount: Math.floor(item.price),
             decimals: this.getDecimals(item.price)
           },
           picture: item.thumbnail,
@@ -52,7 +52,6 @@ class ListItemService {
   }
 
   async getItemById(id) {
-    console.log(id);
     try {
       const rawItemData = await axios.get(
         `https://api.mercadolibre.com/items/${id}`
@@ -69,19 +68,24 @@ class ListItemService {
         return item;
       });
 
+      const itemCategory = await axios.get(
+        `https://api.mercadolibre.com/categories/${rawItemData.data.category_id}`
+      );
+
       const item = {
         id: itemData.id,
         title: itemData.title,
         price: {
           currency: itemData.currency_id,
-          amount: itemData.price,
+          amount: Math.floor(itemData.price),
           decimals: this.getDecimals(itemData.price)
         },
-        picture: itemData.thumbnail,
+        picture: itemData.pictures[0]?.url,
         condition: itemData.condition,
         free_shipping: itemData.shipping?.free_shipping,
         sold_quantity: itemData.sold_quantity,
-        description: itemData.plain_text
+        description: itemData.plain_text,
+        category: itemCategory.data
       };
 
       const response = {

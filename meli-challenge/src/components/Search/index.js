@@ -1,20 +1,17 @@
 import { React, useState } from "react";
 import { useHistory } from "react-router";
-import axios from "axios";
 import "./style.scss";
 
-const Search = (props) => {
+const Search = props => {
   const history = useHistory();
   const [term, setTerm] = useState();
-  const [results, setResults] = useState("");
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     const { value } = e.target;
     setTerm(value);
   };
 
-  const getData = async (term) => {
-    console.log(history);
+  const getData = async term => {
     history.push(`/items/?q=${term ?? ""}`);
   };
 
@@ -24,7 +21,7 @@ const Search = (props) => {
     }
   };
 
-  const handleEnter = (e) => {
+  const handleEnter = e => {
     if (term) {
       const { keyCode } = e;
       if (keyCode !== 13) {
