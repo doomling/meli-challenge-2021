@@ -27,6 +27,6 @@ it("renders with or without a name", () => {
   );
 
   expect(container.querySelector(".item-detail-price").textContent).toBe(
-    "$41359.00"
+    "$4135900"
   );
 });

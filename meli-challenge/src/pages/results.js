@@ -2,9 +2,8 @@ import { React, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
 import ItemList from "../components/ItemList";
-import Breadcrum from "../components/Breadcrum";
 
-const Results = props => {
+const Results = (props) => {
   const location = useLocation();
   const { search } = location;
   const [data, setData] = useState();
@@ -16,7 +15,7 @@ const Results = props => {
     getData(search);
   }, [search]);
 
-  const getData = async term => {
+  const getData = async (term) => {
     setError(false);
     setLoading(true);
     try {

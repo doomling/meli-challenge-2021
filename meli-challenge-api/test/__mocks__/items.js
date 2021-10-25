@@ -7,7 +7,7 @@ const req = {
       total: 199180,
       primary_results: 1000,
       offset: 0,
-      limit: 50
+      limit: 50,
     },
     results: [
       {
@@ -25,7 +25,7 @@ const req = {
             "eshop",
             "mshops",
             "medium_seller",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 82521850,
@@ -36,7 +36,7 @@ const req = {
             eshop_logo_url: "http://resources.mlstatic.com/eshops/82521850.jpg",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -45,22 +45,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0009,
-                value: 9
+                value: 9,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0134,
-                value: 129
+                value: 129,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0802,
-                value: 738
+                value: 738,
               },
               sales: {
                 period: "60 days",
-                completed: 9072
-              }
+                completed: 9072,
+              },
             },
             transactions: {
               canceled: 2672,
@@ -69,11 +69,11 @@ const req = {
               ratings: {
                 negative: 0.04,
                 neutral: 0.03,
-                positive: 0.93
+                positive: 0.93,
               },
-              completed: 45379
-            }
-          }
+              completed: 45379,
+            },
+          },
         },
         price: 41359,
         prices: {
@@ -90,10 +90,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "22",
@@ -106,7 +106,7 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-09-28T03:00:00Z",
                 end_time: "2021-09-29T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
@@ -117,12 +117,12 @@ const req = {
                 discount_meli_amount: 2000,
                 campaign_discount_percentage: 30.91,
                 campaign_end_date: "2021-09-29T02:59:59Z",
-                order_item_price: 39999
-              }
-            }
+                order_item_price: 39999,
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -133,16 +133,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-18T04:28:37Z",
                 end_time: "2021-10-25T04:28:37Z",
-                eligible: true
+                eligible: true,
               },
               amount: 37999,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-18T04:28:37Z"
-            }
+              last_updated: "2021-10-18T04:28:37Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -162,20 +162,20 @@ const req = {
           quantity: 12,
           amount: 5865.05,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: null,
-          city_name: "C.A.B.A"
+          city_name: "C.A.B.A",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_out", "mandatory_free_shipping"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -184,18 +184,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: null,
-            name: "C.A.B.A"
+            name: "C.A.B.A",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -209,12 +209,12 @@ const req = {
                 id: "234",
                 name: "Hitachi",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Principales",
             source: 1,
-            id: "BRAND"
+            id: "BRAND",
           },
           {
             value_id: "7803631",
@@ -227,12 +227,12 @@ const req = {
                 id: "7803631",
                 name: "CDH-LE40SMART17",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "MAIN",
             attribute_group_name: "Principales",
-            id: "MODEL"
+            id: "MODEL",
           },
           {
             value_struct: null,
@@ -241,8 +241,8 @@ const req = {
                 source: 6808261514773724,
                 id: "2230284",
                 name: "Nuevo",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_name: "Otros",
             source: 6808261514773724,
@@ -250,7 +250,7 @@ const req = {
             name: "Condición del ítem",
             attribute_group_id: "OTHERS",
             value_id: "2230284",
-            value_name: "Nuevo"
+            value_name: "Nuevo",
           },
           {
             value_id: "1160569",
@@ -262,7 +262,7 @@ const req = {
             attribute_group_name: "Otros",
             value_struct: {
               number: 16,
-              unit: "W"
+              unit: "W",
             },
             values: [
               {
@@ -270,11 +270,11 @@ const req = {
                 name: "16 W",
                 struct: {
                   number: 16,
-                  unit: "W"
+                  unit: "W",
                 },
-                source: 1
-              }
-            ]
+                source: 1,
+              },
+            ],
           },
           {
             name: "Largo del paquete",
@@ -284,10 +284,10 @@ const req = {
                 name: "7.44 cm",
                 struct: {
                   number: 7.44,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -296,9 +296,9 @@ const req = {
             value_name: "7.44 cm",
             value_struct: {
               unit: "cm",
-              number: 7.44
+              number: 7.44,
             },
-            source: 4333789534002961
+            source: 4333789534002961,
           },
           {
             attribute_group_id: "OTHERS",
@@ -306,7 +306,7 @@ const req = {
             value_name: "8300 g",
             value_struct: {
               unit: "g",
-              number: 8300
+              number: 8300,
             },
             value_id: null,
             values: [
@@ -315,14 +315,14 @@ const req = {
                 name: "8300 g",
                 struct: {
                   number: 8300,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_name: "Otros",
             id: "PACKAGE_WEIGHT",
-            name: "Peso del paquete"
+            name: "Peso del paquete",
           },
           {
             name: "Peso",
@@ -330,7 +330,7 @@ const req = {
             value_name: "8.3 kg",
             value_struct: {
               number: 8.3,
-              unit: "kg"
+              unit: "kg",
             },
             values: [
               {
@@ -338,16 +338,16 @@ const req = {
                 name: "8.3 kg",
                 struct: {
                   number: 8.3,
-                  unit: "kg"
+                  unit: "kg",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 1,
-            id: "WEIGHT"
-          }
+            id: "WEIGHT",
+          },
         ],
         original_price: null,
         category_id: "MLA1002",
@@ -363,7 +363,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -371,7 +371,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 1
+        order_backend: 1,
       },
       {
         id: "MLA831564005",
@@ -388,7 +388,7 @@ const req = {
             "eshop",
             "credits_profile",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 131758489,
@@ -400,7 +400,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/131758489.jpg",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -409,22 +409,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0005,
-                value: 6
+                value: 6,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0025,
-                value: 26
+                value: 26,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0004,
-                value: 4
+                value: 4,
               },
               sales: {
                 period: "60 days",
-                completed: 9603
-              }
+                completed: 9603,
+              },
             },
             transactions: {
               canceled: 2513,
@@ -433,11 +433,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 51061
-            }
-          }
+              completed: 51061,
+            },
+          },
         },
         price: 1399,
         prices: {
@@ -454,18 +454,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -485,20 +485,20 @@ const req = {
           quantity: 12,
           amount: 198.39,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: null,
-          city_name: "San Justo"
+          city_name: "San Justo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_out"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -507,18 +507,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: null,
-            name: "San Justo"
+            name: "San Justo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -534,10 +534,10 @@ const req = {
                 source: 8342579661593500,
                 id: null,
                 name: "Bsj",
-                struct: null
-              }
+                struct: null,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_name: "Nuevo",
@@ -546,8 +546,8 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 8342579661593500,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_name: "Otros",
             source: 8342579661593500,
@@ -555,7 +555,7 @@ const req = {
             value_id: "2230284",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            id: "ITEM_CONDITION"
+            id: "ITEM_CONDITION",
           },
           {
             id: "MODEL",
@@ -565,15 +565,15 @@ const req = {
                 id: null,
                 name: "Ambiente Tropical Mecanico con Presillas",
                 struct: null,
-                source: 8342579661593500
-              }
+                source: 8342579661593500,
+              },
             ],
             source: 8342579661593500,
             name: "Modelo",
             value_id: null,
             value_struct: null,
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "SALE_FORMAT",
@@ -584,14 +584,14 @@ const req = {
                 name: "Unidad",
                 struct: null,
                 source: 8342579661593500,
-                id: "1359391"
-              }
+                id: "1359391",
+              },
             ],
             attribute_group_name: "Otros",
             name: "Formato de venta",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            source: 8342579661593500
+            source: 8342579661593500,
           },
           {
             value_name: "2",
@@ -601,16 +601,16 @@ const req = {
                 id: null,
                 name: "2",
                 struct: null,
-                source: 8342579661593500
-              }
+                source: 8342579661593500,
+              },
             ],
             attribute_group_name: "Otros",
             name: "Unidades por pack",
             value_id: null,
             source: 8342579661593500,
             id: "UNITS_PER_PACK",
-            attribute_group_id: "OTHERS"
-          }
+            attribute_group_id: "OTHERS",
+          },
         ],
         original_price: null,
         category_id: "MLA4771",
@@ -624,14 +624,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 2,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA1100848536",
@@ -648,7 +648,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 638528199,
@@ -660,7 +660,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/638528199v3f6781.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -669,22 +669,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0133,
-                value: 84
+                value: 84,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0146,
-                value: 92
+                value: 92,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0286,
-                value: 154
+                value: 154,
               },
               sales: {
                 period: "60 days",
-                completed: 5872
-              }
+                completed: 5872,
+              },
             },
             transactions: {
               canceled: 2730,
@@ -693,11 +693,11 @@ const req = {
               ratings: {
                 negative: 0.07,
                 neutral: 0.03,
-                positive: 0.9
+                positive: 0.9,
               },
-              completed: 39984
-            }
-          }
+              completed: 39984,
+            },
+          },
         },
         price: 64999,
         prices: {
@@ -714,14 +714,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -732,16 +732,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-17T04:21:16Z",
                 end_time: "2021-10-24T04:21:16Z",
-                eligible: true
+                eligible: true,
               },
               amount: 65999,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-17T04:21:16Z"
-            }
+              last_updated: "2021-10-17T04:21:16Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -761,20 +761,20 @@ const req = {
           quantity: 12,
           amount: 9217.4,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjBa",
-          city_name: "Villa Crespo"
+          city_name: "Villa Crespo",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_in", "mandatory_free_shipping"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -783,18 +783,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjBa",
-            name: "Villa Crespo"
+            name: "Villa Crespo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -808,12 +808,12 @@ const req = {
                 id: "16457",
                 name: "TCL",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             value_id: "16457",
             value_struct: null,
-            attribute_group_id: "MAIN"
+            attribute_group_id: "MAIN",
           },
           {
             attribute_group_id: "MAIN",
@@ -826,12 +826,12 @@ const req = {
                 name: "L50P8M",
                 struct: null,
                 source: 1,
-                id: "7854977"
-              }
+                id: "7854977",
+              },
             ],
             name: "Modelo",
             value_struct: null,
-            attribute_group_name: "Principales"
+            attribute_group_name: "Principales",
           },
           {
             id: "ITEM_CONDITION",
@@ -842,20 +842,20 @@ const req = {
                 source: 2860837171021627,
                 id: "2230284",
                 name: "Nuevo",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 2860837171021627,
             name: "Condición del ítem",
-            value_id: "2230284"
+            value_id: "2230284",
           },
           {
             value_name: "8 W",
             value_struct: {
               unit: "W",
-              number: 8
+              number: 8,
             },
             attribute_group_id: "OTHERS",
             id: "MAX_SPEAKERS_POWER",
@@ -867,19 +867,19 @@ const req = {
                 name: "8 W",
                 struct: {
                   number: 8,
-                  unit: "W"
+                  unit: "W",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             value_name: "10 kg",
             value_struct: {
               number: 10,
-              unit: "kg"
+              unit: "kg",
             },
             attribute_group_id: "OTHERS",
             id: "WEIGHT",
@@ -891,14 +891,14 @@ const req = {
                 name: "10 kg",
                 struct: {
                   number: 10,
-                  unit: "kg"
+                  unit: "kg",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
-            source: 1
-          }
+            source: 1,
+          },
         ],
         original_price: null,
         category_id: "MLA1002",
@@ -913,7 +913,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -921,7 +921,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 3
+        order_backend: 3,
       },
       {
         id: "MLA850236577",
@@ -939,7 +939,7 @@ const req = {
             "eshop",
             "credits_profile",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 85424437,
@@ -951,7 +951,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/defaultLogo.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -960,22 +960,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0071,
-                value: 16
+                value: 16,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0134,
-                value: 30
+                value: 30,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.011,
-                value: 23
+                value: 23,
               },
               sales: {
                 period: "60 days",
-                completed: 2140
-              }
+                completed: 2140,
+              },
             },
             transactions: {
               canceled: 766,
@@ -984,11 +984,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 15438
-            }
-          }
+              completed: 15438,
+            },
+          },
         },
         price: 3499,
         prices: {
@@ -1005,18 +1005,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -1036,20 +1036,20 @@ const req = {
           quantity: 12,
           amount: 496.19,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkxJTjEzNTha",
-          city_name: "Liniers"
+          city_name: "Liniers",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -1058,18 +1058,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkxJTjEzNTha",
-            name: "Liniers"
+            name: "Liniers",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -1086,16 +1086,16 @@ const req = {
                 source: 1,
                 id: "995",
                 name: "Sony",
-                struct: null
-              }
-            ]
+                struct: null,
+              },
+            ],
           },
           {
             value_id: "10566488",
             value_name: "3.94 ft",
             value_struct: {
               number: 3.94,
-              unit: "ft"
+              unit: "ft",
             },
             values: [
               {
@@ -1103,16 +1103,16 @@ const req = {
                 name: "3.94 ft",
                 struct: {
                   number: 3.94,
-                  unit: "ft"
+                  unit: "ft",
                 },
-                source: 4709228965570453
-              }
+                source: 4709228965570453,
+              },
             ],
             source: 4709228965570453,
             id: "CABLE_LENGTH",
             name: "Largo del cable",
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_name: "MDRZX310AP/B",
@@ -1124,13 +1124,13 @@ const req = {
                 id: "509791",
                 name: "MDRZX310AP/B",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 1,
-            name: "Modelo detallado"
+            name: "Modelo detallado",
           },
           {
             id: "ITEM_CONDITION",
@@ -1145,10 +1145,10 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 3570163010178927
-              }
+                source: 3570163010178927,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             attribute_group_name: "Otros",
@@ -1161,12 +1161,12 @@ const req = {
                 id: "509789",
                 name: "ZX Series",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             value_id: "509789",
-            value_name: "ZX Series"
+            value_name: "ZX Series",
           },
           {
             values: [
@@ -1174,8 +1174,8 @@ const req = {
                 id: "509790",
                 name: "MDR-ZX310AP",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1,
@@ -1184,12 +1184,12 @@ const req = {
             value_name: "MDR-ZX310AP",
             attribute_group_id: "OTHERS",
             id: "MODEL",
-            name: "Modelo"
+            name: "Modelo",
           },
           {
             value_struct: {
               number: 16.6,
-              unit: "cm"
+              unit: "cm",
             },
             values: [
               {
@@ -1197,10 +1197,10 @@ const req = {
                 name: "16.6 cm",
                 struct: {
                   unit: "cm",
-                  number: 16.6
+                  number: 16.6,
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             source: 4333789534002961,
             attribute_group_id: "OTHERS",
@@ -1208,14 +1208,14 @@ const req = {
             id: "PACKAGE_LENGTH",
             name: "Largo del paquete",
             value_id: null,
-            value_name: "16.6 cm"
+            value_name: "16.6 cm",
           },
           {
             name: "Peso del paquete",
             value_name: "220 g",
             value_struct: {
               number: 220,
-              unit: "g"
+              unit: "g",
             },
             source: 4333789534002961,
             id: "PACKAGE_WEIGHT",
@@ -1226,14 +1226,14 @@ const req = {
                 name: "220 g",
                 struct: {
                   number: 220,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
-          }
+            attribute_group_name: "Otros",
+          },
         ],
         original_price: null,
         category_id: "MLA3697",
@@ -1249,7 +1249,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -1257,7 +1257,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 4
+        order_backend: 4,
       },
       {
         id: "MLA1108957272",
@@ -1274,7 +1274,7 @@ const req = {
             "eshop",
             "credits_profile",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 96055346,
@@ -1286,7 +1286,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/96055346v450dd8.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -1295,22 +1295,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0024,
-                value: 11
+                value: 11,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0099,
-                value: 45
+                value: 45,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0027,
-                value: 11
+                value: 11,
               },
               sales: {
                 period: "60 days",
-                completed: 4290
-              }
+                completed: 4290,
+              },
             },
             transactions: {
               canceled: 1326,
@@ -1319,11 +1319,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.02,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 25620
-            }
-          }
+              completed: 25620,
+            },
+          },
         },
         price: 192,
         prices: {
@@ -1340,18 +1340,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -1371,20 +1371,20 @@ const req = {
           quantity: 12,
           amount: 27.23,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkZMTzg5MjFa",
-          city_name: "Floresta"
+          city_name: "Floresta",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -1393,18 +1393,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkZMTzg5MjFa",
-            name: "Floresta"
+            name: "Floresta",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -1415,15 +1415,15 @@ const req = {
                 id: "15802",
                 name: "Kolke",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             source: 1,
             id: "BRAND",
             value_id: "15802",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             name: "Condición del ítem",
@@ -1435,13 +1435,13 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             id: "ITEM_CONDITION",
             attribute_group_name: "Otros",
             source: 1572,
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             values: [
@@ -1450,22 +1450,22 @@ const req = {
                 name: "220 mm",
                 struct: {
                   number: 220,
-                  unit: "mm"
+                  unit: "mm",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             value_id: "2646742",
             value_name: "220 mm",
             value_struct: {
               number: 220,
-              unit: "mm"
+              unit: "mm",
             },
             source: 1,
             id: "LENGTH",
             name: "Largo",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_name: "KED151",
@@ -1475,16 +1475,16 @@ const req = {
                 id: "3681343",
                 name: "KED151",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 1,
             value_id: "3681343",
             name: "Modelo",
-            id: "MODEL"
-          }
+            id: "MODEL",
+          },
         ],
         original_price: null,
         category_id: "MLA1716",
@@ -1498,7 +1498,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -1506,7 +1506,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 5
+        order_backend: 5,
       },
       {
         id: "MLA859227471",
@@ -1525,7 +1525,7 @@ const req = {
             "credits_profile",
             "credits_active_borrower",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 186203072,
@@ -1537,7 +1537,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/186203072v2c54f0.png",
             eshop_status_id: 2,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -1546,22 +1546,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0033,
-                value: 13
+                value: 13,
               },
               claims: {
                 period: "60 days",
                 rate: 0.013,
-                value: 51
+                value: 51,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0061,
-                value: 22
+                value: 22,
               },
               sales: {
                 period: "60 days",
-                completed: 3725
-              }
+                completed: 3725,
+              },
             },
             transactions: {
               canceled: 1310,
@@ -1570,11 +1570,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.01,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 31455
-            }
-          }
+              completed: 31455,
+            },
+          },
         },
         price: 2174,
         prices: {
@@ -1591,14 +1591,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -1609,16 +1609,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-15T04:59:13Z",
                 end_time: "2021-10-22T04:59:13Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1823.4,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T04:59:13Z"
-            }
+              last_updated: "2021-10-15T04:59:13Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -1638,20 +1638,20 @@ const req = {
           quantity: 6,
           amount: 362.33,
           rate: 0,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjBa",
-          city_name: "Villa Crespo"
+          city_name: "Villa Crespo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_in"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -1660,18 +1660,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjBa",
-            name: "Villa Crespo"
+            name: "Villa Crespo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -1684,13 +1684,13 @@ const req = {
                 name: "Thonet & Vander",
                 struct: null,
                 source: 2860837171021627,
-                id: "16362"
-              }
+                id: "16362",
+              },
             ],
             value_id: "16362",
             value_name: "Thonet & Vander",
             attribute_group_name: "Otros",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             value_name: "1.3 m",
@@ -1701,7 +1701,7 @@ const req = {
             value_id: null,
             value_struct: {
               number: 1.3,
-              unit: "m"
+              unit: "m",
             },
             values: [
               {
@@ -1709,12 +1709,12 @@ const req = {
                 name: "1.3 m",
                 struct: {
                   number: 1.3,
-                  unit: "m"
+                  unit: "m",
                 },
-                source: 3376461333454861
-              }
+                source: 3376461333454861,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_name: "Nuevo",
@@ -1730,9 +1730,9 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 2860837171021627
-              }
-            ]
+                source: 2860837171021627,
+              },
+            ],
           },
           {
             value_name: "Auriculares",
@@ -1745,12 +1745,12 @@ const req = {
                 id: null,
                 name: "Auriculares",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            name: "Línea"
+            name: "Línea",
           },
           {
             id: "MODEL",
@@ -1759,8 +1759,8 @@ const req = {
                 id: "5324584",
                 name: "Klein",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_name: "Otros",
             source: 2860837171021627,
@@ -1768,11 +1768,11 @@ const req = {
             name: "Modelo",
             value_id: "5324584",
             value_name: "Klein",
-            value_struct: null
-          }
+            value_struct: null,
+          },
         ],
         differential_pricing: {
-          id: 35713341
+          id: 35713341,
         },
         original_price: null,
         category_id: "MLA3697",
@@ -1786,14 +1786,14 @@ const req = {
           "good_quality_thumbnail",
           "loyalty_discount_eligible",
           "immediate_payment",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 6,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA1108836503",
@@ -1809,7 +1809,7 @@ const req = {
             "brand",
             "large_seller",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           seller_reputation: {
             power_seller_status: "platinum",
@@ -1818,22 +1818,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0015,
-                value: 17
+                value: 17,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0067,
-                value: 74
+                value: 74,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.023,
-                value: 179
+                value: 179,
               },
               sales: {
                 period: "60 days",
-                completed: 10435
-              }
+                completed: 10435,
+              },
             },
             transactions: {
               canceled: 2861,
@@ -1842,11 +1842,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.03,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 55339
-            }
-          }
+              completed: 55339,
+            },
+          },
         },
         price: 4699,
         prices: {
@@ -1863,18 +1863,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -1894,20 +1894,20 @@ const req = {
           quantity: 12,
           amount: 666.36,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: null,
-          city_name: "Palermo"
+          city_name: "Palermo",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_in", "mandatory_free_shipping"],
           logistic_type: "cross_docking",
-          store_pick_up: true
+          store_pick_up: true,
         },
         seller_address: {
           id: "",
@@ -1916,18 +1916,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: null,
-            name: "Palermo"
+            name: "Palermo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -1944,9 +1944,9 @@ const req = {
                 source: 1,
                 id: "479",
                 name: "Philco",
-                struct: null
-              }
-            ]
+                struct: null,
+              },
+            ],
           },
           {
             value_name: "Nuevo",
@@ -1962,9 +1962,9 @@ const req = {
                 struct: null,
                 source: 1,
                 id: "2230284",
-                name: "Nuevo"
-              }
-            ]
+                name: "Nuevo",
+              },
+            ],
           },
           {
             name: "Modelo",
@@ -1978,17 +1978,17 @@ const req = {
                 id: "9101452",
                 name: "SPH509",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             attribute_group_name: "Otros",
             value_struct: {
               number: 0.55,
-              unit: "kg"
+              unit: "kg",
             },
             values: [
               {
@@ -1997,17 +1997,17 @@ const req = {
                 name: "0.55 kg",
                 struct: {
                   unit: "kg",
-                  number: 0.55
-                }
-              }
+                  number: 0.55,
+                },
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1,
             id: "WEIGHT",
             name: "Peso",
             value_id: "7675627",
-            value_name: "0.55 kg"
-          }
+            value_name: "0.55 kg",
+          },
         ],
         original_price: null,
         category_id: "MLA8618",
@@ -2021,7 +2021,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -2029,7 +2029,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 7
+        order_backend: 7,
       },
       {
         id: "MLA854199449",
@@ -2049,22 +2049,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0057,
-                value: 21
+                value: 21,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0433,
-                value: 136
+                value: 136,
               },
               sales: {
                 period: "60 days",
-                completed: 3499
-              }
+                completed: 3499,
+              },
             },
             transactions: {
               canceled: 943,
@@ -2073,11 +2073,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 21922
-            }
-          }
+              completed: 21922,
+            },
+          },
         },
         price: 1190,
         prices: {
@@ -2094,18 +2094,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -2125,20 +2125,20 @@ const req = {
           quantity: 12,
           amount: 168.75,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -2147,18 +2147,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -2168,8 +2168,8 @@ const req = {
                 name: "BLANCO JAI",
                 struct: null,
                 source: 2860837171021627,
-                id: null
-              }
+                id: null,
+              },
             ],
             attribute_group_name: "Otros",
             source: 2860837171021627,
@@ -2177,7 +2177,7 @@ const req = {
             name: "Marca",
             attribute_group_id: "OTHERS",
             value_id: null,
-            value_name: "BLANCO JAI"
+            value_name: "BLANCO JAI",
           },
           {
             attribute_group_name: "Otros",
@@ -2193,16 +2193,16 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 2860837171021627,
-                id: "2230284"
-              }
-            ]
+                id: "2230284",
+              },
+            ],
           },
           {
             source: 7092,
             id: "LENGTH",
             value_struct: {
               number: 170,
-              unit: "cm"
+              unit: "cm",
             },
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -2216,10 +2216,10 @@ const req = {
                 name: "170 cm",
                 struct: {
                   number: 170,
-                  unit: "cm"
-                }
-              }
-            ]
+                  unit: "cm",
+                },
+              },
+            ],
           },
           {
             value_struct: null,
@@ -2230,15 +2230,15 @@ const req = {
                 id: null,
                 name: "LISA CON APLIQUE DE PUNTILLA",
                 struct: null,
-                source: 7092
-              }
+                source: 7092,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 7092,
             id: "MODEL",
-            value_id: null
-          }
+            value_id: null,
+          },
         ],
         original_price: null,
         category_id: "MLA74488",
@@ -2253,14 +2253,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 8,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA923074996",
@@ -2280,22 +2280,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0179,
-                value: 16
+                value: 16,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0167,
-                value: 11
+                value: 11,
               },
               sales: {
                 period: "60 days",
-                completed: 842
-              }
+                completed: 842,
+              },
             },
             transactions: {
               canceled: 210,
@@ -2304,11 +2304,11 @@ const req = {
               ratings: {
                 negative: 0.06,
                 neutral: 0.03,
-                positive: 0.91
+                positive: 0.91,
               },
-              completed: 4068
-            }
-          }
+              completed: 4068,
+            },
+          },
         },
         price: 2392.5,
         prices: {
@@ -2325,10 +2325,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "26",
@@ -2341,13 +2341,13 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-13T03:00:00Z",
                 end_time: "2021-10-20T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4711021-MLA923074996",
-                promotion_type: "custom"
-              }
+                promotion_type: "custom",
+              },
             },
             {
               id: "27",
@@ -2360,17 +2360,17 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T21:00:00Z",
                 end_time: "2021-10-21T03:00:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4838051-MLA923074996",
-                promotion_type: "lightning"
-              }
-            }
+                promotion_type: "lightning",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -2381,16 +2381,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-16T04:17:37Z",
                 end_time: "2021-10-23T04:17:37Z",
-                eligible: true
+                eligible: true,
               },
               amount: 2392.5,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-16T04:17:38Z"
-            }
+              last_updated: "2021-10-16T04:17:38Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -2410,20 +2410,20 @@ const req = {
           quantity: 12,
           amount: 199.38,
           rate: 0,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkZMTzg5MjFa",
-          city_name: "Floresta"
+          city_name: "Floresta",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_in"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -2432,18 +2432,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkZMTzg5MjFa",
-            name: "Floresta"
+            name: "Floresta",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -2453,8 +2453,8 @@ const req = {
                 struct: null,
                 source: 8492822877720875,
                 id: "7696",
-                name: "3M"
-              }
+                name: "3M",
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "BRAND",
@@ -2462,7 +2462,7 @@ const req = {
             attribute_group_name: "Otros",
             source: 8492822877720875,
             value_id: "7696",
-            value_struct: null
+            value_struct: null,
           },
           {
             values: [
@@ -2470,8 +2470,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1505
-              }
+                source: 1505,
+              },
             ],
             source: 1505,
             value_id: "2230284",
@@ -2480,7 +2480,7 @@ const req = {
             attribute_group_name: "Otros",
             id: "ITEM_CONDITION",
             name: "Condición del ítem",
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             values: [
@@ -2488,8 +2488,8 @@ const req = {
                 name: "N95 con certificación NIOSH",
                 struct: null,
                 source: 3376461333454861,
-                id: null
-              }
+                id: null,
+              },
             ],
             attribute_group_name: "Otros",
             source: 3376461333454861,
@@ -2498,7 +2498,7 @@ const req = {
             value_struct: null,
             attribute_group_id: "OTHERS",
             id: "MODEL",
-            value_id: null
+            value_id: null,
           },
           {
             value_struct: null,
@@ -2507,8 +2507,8 @@ const req = {
                 source: 3376461333454861,
                 id: null,
                 name: "6",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             id: "UNITS_PER_PACKAGE",
             value_name: "6",
@@ -2516,11 +2516,11 @@ const req = {
             attribute_group_name: "Otros",
             source: 3376461333454861,
             name: "Unidades por envase",
-            value_id: null
-          }
+            value_id: null,
+          },
         ],
         differential_pricing: {
-          id: 35713278
+          id: 35713278,
         },
         original_price: 3190,
         category_id: "MLA420244",
@@ -2533,14 +2533,14 @@ const req = {
           "loyalty_discount_eligible",
           "ahora-12",
           "immediate_payment",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 9,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA1103264355",
@@ -2561,22 +2561,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0064,
-                value: 10
+                value: 10,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0045,
-                value: 7
+                value: 7,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0181,
-                value: 26
+                value: 26,
               },
               sales: {
                 period: "60 days",
-                completed: 1478
-              }
+                completed: 1478,
+              },
             },
             transactions: {
               canceled: 86,
@@ -2585,11 +2585,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.02,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 1789
-            }
-          }
+              completed: 1789,
+            },
+          },
         },
         price: 5128,
         prices: {
@@ -2606,14 +2606,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -2624,16 +2624,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:35:02Z",
                 end_time: "2021-10-27T04:35:02Z",
-                eligible: true
+                eligible: true,
               },
               amount: 6400,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:35:02Z"
-            }
+              last_updated: "2021-10-20T04:35:02Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -2653,20 +2653,20 @@ const req = {
           quantity: 12,
           amount: 727.19,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkNPTDI3NDNa",
-          city_name: "Colegiales"
+          city_name: "Colegiales",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_in", "mandatory_free_shipping"],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -2675,18 +2675,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkNPTDI3NDNa",
-            name: "Colegiales"
+            name: "Colegiales",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -2696,8 +2696,8 @@ const req = {
                 source: 1,
                 id: "40652",
                 name: "Nisuta",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1,
@@ -2705,7 +2705,7 @@ const req = {
             value_name: "Nisuta",
             attribute_group_id: "OTHERS",
             id: "BRAND",
-            name: "Marca"
+            name: "Marca",
           },
           {
             value_struct: null,
@@ -2714,8 +2714,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             id: "ITEM_CONDITION",
             value_id: "2230284",
@@ -2723,7 +2723,7 @@ const req = {
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 2860837171021627,
-            name: "Condición del ítem"
+            name: "Condición del ítem",
           },
           {
             name: "Modelo",
@@ -2733,16 +2733,16 @@ const req = {
                 id: "2881042",
                 name: "NSSOTV55R",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             source: 1,
             attribute_group_name: "Otros",
             id: "MODEL",
             value_id: "2881042",
             value_struct: null,
-            attribute_group_id: "OTHERS"
-          }
+            attribute_group_id: "OTHERS",
+          },
         ],
         original_price: null,
         category_id: "MLA41925",
@@ -2756,7 +2756,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -2764,7 +2764,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 10
+        order_backend: 10,
       },
       {
         id: "MLA1108978424",
@@ -2783,7 +2783,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 174556876,
@@ -2795,7 +2795,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/174556876vf25324.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -2804,22 +2804,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0092,
-                value: 392
+                value: 392,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0176,
-                value: 747
+                value: 747,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0415,
-                value: 1554
+                value: 1554,
               },
               sales: {
                 period: "60 days",
-                completed: 39671
-              }
+                completed: 39671,
+              },
             },
             transactions: {
               canceled: 27502,
@@ -2828,11 +2828,11 @@ const req = {
               ratings: {
                 negative: 0.04,
                 neutral: 0.03,
-                positive: 0.93
+                positive: 0.93,
               },
-              completed: 417844
-            }
-          }
+              completed: 417844,
+            },
+          },
         },
         price: 1760,
         prices: {
@@ -2849,18 +2849,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -2880,20 +2880,20 @@ const req = {
           quantity: 12,
           amount: 249.58,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjBa",
-          city_name: "Villa Crespo"
+          city_name: "Villa Crespo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_out"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -2902,18 +2902,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjBa",
-            name: "Villa Crespo"
+            name: "Villa Crespo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -2925,14 +2925,14 @@ const req = {
                 id: "15788",
                 name: "Logitech",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "BRAND",
             name: "Marca",
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             value_id: "8047973",
@@ -2945,12 +2945,12 @@ const req = {
                 id: "8047973",
                 name: "943-000100",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1,
-            id: "DETAILED_MODEL"
+            id: "DETAILED_MODEL",
           },
           {
             value_name: "Nuevo",
@@ -2960,21 +2960,21 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 1572,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1572,
             id: "ITEM_CONDITION",
             name: "Condición del ítem",
             value_id: "2230284",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "LENGTH",
             value_struct: {
               number: 340,
-              unit: "mm"
+              unit: "mm",
             },
             values: [
               {
@@ -2982,17 +2982,17 @@ const req = {
                 name: "340 mm",
                 struct: {
                   number: 340,
-                  unit: "mm"
+                  unit: "mm",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             name: "Largo",
             value_id: "2660593",
             value_name: "340 mm",
             attribute_group_id: "OTHERS",
-            source: 1
+            source: 1,
           },
           {
             values: [
@@ -3000,8 +3000,8 @@ const req = {
                 id: "95570",
                 name: "Serie G",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1,
@@ -3010,7 +3010,7 @@ const req = {
             value_struct: null,
             attribute_group_id: "OTHERS",
             value_id: "95570",
-            value_name: "Serie G"
+            value_name: "Serie G",
           },
           {
             value_name: "G440",
@@ -3026,9 +3026,9 @@ const req = {
                 source: 1,
                 id: "44308",
                 name: "G440",
-                struct: null
-              }
-            ]
+                struct: null,
+              },
+            ],
           },
           {
             source: 1,
@@ -3040,19 +3040,19 @@ const req = {
                 name: "0.05 cm",
                 struct: {
                   number: 0.05,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             name: "Largo del paquete",
             value_id: null,
             value_struct: {
               number: 0.05,
-              unit: "cm"
+              unit: "cm",
             },
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_name: "400 g",
@@ -3062,7 +3062,7 @@ const req = {
             value_id: null,
             value_struct: {
               number: 400,
-              unit: "g"
+              unit: "g",
             },
             values: [
               {
@@ -3070,14 +3070,14 @@ const req = {
                 name: "400 g",
                 struct: {
                   number: 400,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
-          }
+            attribute_group_name: "Otros",
+          },
         ],
         original_price: null,
         category_id: "MLA1716",
@@ -3091,7 +3091,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -3099,7 +3099,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 11
+        order_backend: 11,
       },
       {
         id: "MLA900681605",
@@ -3116,7 +3116,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 256921482,
@@ -3128,7 +3128,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/256921482va36226.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -3137,22 +3137,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0047,
-                value: 42
+                value: 42,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0139,
-                value: 124
+                value: 124,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0231,
-                value: 185
+                value: 185,
               },
               sales: {
                 period: "60 days",
-                completed: 8389
-              }
+                completed: 8389,
+              },
             },
             transactions: {
               canceled: 3063,
@@ -3161,11 +3161,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 54858
-            }
-          }
+              completed: 54858,
+            },
+          },
         },
         price: 730,
         prices: {
@@ -3182,10 +3182,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "51",
@@ -3198,17 +3198,17 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-09-21T03:00:00Z",
                 end_time: "2021-09-28T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4267875-MLA900681605",
-                promotion_type: "custom"
-              }
-            }
+                promotion_type: "custom",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -3219,16 +3219,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:41:02Z",
                 end_time: "2021-10-27T04:41:02Z",
-                eligible: true
+                eligible: true,
               },
               amount: 584,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:41:03Z"
-            }
+              last_updated: "2021-10-20T04:41:03Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -3248,20 +3248,20 @@ const req = {
           quantity: 12,
           amount: 103.52,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjBa",
-          city_name: "Villa Crespo"
+          city_name: "Villa Crespo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_in"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -3270,18 +3270,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjBa",
-            name: "Villa Crespo"
+            name: "Villa Crespo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -3292,15 +3292,15 @@ const req = {
                 name: "Iglufive",
                 struct: null,
                 source: 6808261514773724,
-                id: null
-              }
+                id: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 6808261514773724,
             name: "Marca",
             value_id: null,
             value_struct: null,
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "ITEM_CONDITION",
@@ -3311,14 +3311,14 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 6808261514773724,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_name: "Otros",
             value_id: "2230284",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             values: [
@@ -3327,10 +3327,10 @@ const req = {
                 name: "37 cm",
                 struct: {
                   number: 37,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
             id: "LENGTH",
@@ -3338,11 +3338,11 @@ const req = {
             value_id: null,
             value_struct: {
               number: 37,
-              unit: "cm"
+              unit: "cm",
             },
             value_name: "37 cm",
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             id: "MODEL",
@@ -3357,10 +3357,10 @@ const req = {
                 struct: null,
                 source: 6808261514773724,
                 id: null,
-                name: "PS-1"
-              }
+                name: "PS-1",
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             id: "PACKAGE_LENGTH",
@@ -3368,7 +3368,7 @@ const req = {
             value_id: null,
             value_struct: {
               number: 2,
-              unit: "cm"
+              unit: "cm",
             },
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -3380,11 +3380,11 @@ const req = {
                 name: "2 cm",
                 struct: {
                   number: 2,
-                  unit: "cm"
-                }
-              }
+                  unit: "cm",
+                },
+              },
             ],
-            source: 4333789534002961
+            source: 4333789534002961,
           },
           {
             attribute_group_name: "Otros",
@@ -3392,7 +3392,7 @@ const req = {
             value_name: "200 g",
             value_struct: {
               number: 200,
-              unit: "g"
+              unit: "g",
             },
             values: [
               {
@@ -3400,15 +3400,15 @@ const req = {
                 name: "200 g",
                 struct: {
                   number: 200,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             name: "Peso del paquete",
             value_id: null,
             attribute_group_id: "OTHERS",
-            source: 4333789534002961
+            source: 4333789534002961,
           },
           {
             name: "Unidades por envase",
@@ -3424,10 +3424,10 @@ const req = {
                 id: null,
                 name: "1",
                 struct: null,
-                source: 6808261514773724
-              }
-            ]
-          }
+                source: 6808261514773724,
+              },
+            ],
+          },
         ],
         original_price: null,
         category_id: "MLA413546",
@@ -3442,14 +3442,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 12,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA925419205",
@@ -3469,22 +3469,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0003,
-                value: 4
+                value: 4,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0004,
-                value: 5
+                value: 5,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0179,
-                value: 185
+                value: 185,
               },
               sales: {
                 period: "60 days",
-                completed: 10400
-              }
+                completed: 10400,
+              },
             },
             transactions: {
               canceled: 1171,
@@ -3493,11 +3493,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 49902
-            }
-          }
+              completed: 49902,
+            },
+          },
         },
         price: 479,
         prices: {
@@ -3514,10 +3514,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "5",
@@ -3530,17 +3530,17 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-09-26T03:00:00Z",
                 end_time: "2021-10-02T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4358829-MLA925419205",
-                promotion_type: "custom"
-              }
-            }
+                promotion_type: "custom",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -3551,16 +3551,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T05:14:23Z",
                 end_time: "2021-10-27T05:14:23Z",
-                eligible: true
+                eligible: true,
               },
               amount: 479,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T05:14:23Z"
-            }
+              last_updated: "2021-10-20T05:14:23Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -3580,20 +3580,20 @@ const req = {
           quantity: 12,
           amount: 67.93,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJFTDcyNTJa",
-          city_name: "Belgrano"
+          city_name: "Belgrano",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -3602,18 +3602,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJFTDcyNTJa",
-            name: "Belgrano"
+            name: "Belgrano",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -3628,11 +3628,11 @@ const req = {
                 id: "4441854",
                 name: "Downy",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
-            name: "Marca"
+            name: "Marca",
           },
           {
             id: "ITEM_CONDITION",
@@ -3645,12 +3645,12 @@ const req = {
                 source: 7092,
                 id: "2230284",
                 name: "Nuevo",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 7092
+            source: 7092,
           },
           {
             name: "Volumen neto",
@@ -3658,7 +3658,7 @@ const req = {
             value_name: "1 L",
             value_struct: {
               number: 1,
-              unit: "L"
+              unit: "L",
             },
             attribute_group_name: "Otros",
             source: 1,
@@ -3667,14 +3667,14 @@ const req = {
               {
                 struct: {
                   number: 1,
-                  unit: "L"
+                  unit: "L",
                 },
                 source: 1,
                 id: "188135",
-                name: "1 L"
-              }
+                name: "1 L",
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             id: "SALE_FORMAT",
@@ -3686,13 +3686,13 @@ const req = {
                 source: 1,
                 id: "1359391",
                 name: "Unidad",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             name: "Formato de venta",
             value_id: "1359391",
-            value_name: "Unidad"
+            value_name: "Unidad",
           },
           {
             value_struct: null,
@@ -3706,12 +3706,12 @@ const req = {
                 struct: null,
                 source: 1,
                 id: "2726554",
-                name: "1"
-              }
+                name: "1",
+              },
             ],
             attribute_group_name: "Otros",
-            source: 1
-          }
+            source: 1,
+          },
         ],
         original_price: null,
         category_id: "MLA407838",
@@ -3725,7 +3725,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -3733,7 +3733,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 13
+        order_backend: 13,
       },
       {
         id: "MLA902687408",
@@ -3750,7 +3750,7 @@ const req = {
             "credits_priority_4",
             "credits_profile",
             "eshop",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 44587848,
@@ -3762,7 +3762,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/44587848v7357e2.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -3771,22 +3771,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0046,
-                value: 5
+                value: 5,
               },
               sales: {
                 period: "60 days",
-                completed: 1077
-              }
+                completed: 1077,
+              },
             },
             transactions: {
               canceled: 207,
@@ -3795,11 +3795,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0.01,
-                positive: 0.99
+                positive: 0.99,
               },
-              completed: 6719
-            }
-          }
+              completed: 6719,
+            },
+          },
         },
         price: 1163,
         prices: {
@@ -3816,14 +3816,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -3834,16 +3834,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:34:02Z",
                 end_time: "2021-10-27T04:34:02Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1111,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:34:02Z"
-            }
+              last_updated: "2021-10-20T04:34:02Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -3863,20 +3863,20 @@ const req = {
           quantity: 12,
           amount: 164.92,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlBBTDI1MTVa",
-          city_name: "Palermo"
+          city_name: "Palermo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -3885,18 +3885,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlBBTDI1MTVa",
-            name: "Palermo"
+            name: "Palermo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -3913,9 +3913,9 @@ const req = {
                 source: 3045741222775799,
                 id: "189872",
                 name: "Western",
-                struct: null
-              }
-            ]
+                struct: null,
+              },
+            ],
           },
           {
             attribute_group_id: "OTHERS",
@@ -3926,7 +3926,7 @@ const req = {
             value_name: "1.5 m",
             value_struct: {
               number: 1.5,
-              unit: "m"
+              unit: "m",
             },
             values: [
               {
@@ -3934,12 +3934,12 @@ const req = {
                 name: "1.5 m",
                 struct: {
                   number: 1.5,
-                  unit: "m"
+                  unit: "m",
                 },
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "ITEM_CONDITION",
@@ -3953,11 +3953,11 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
             attribute_group_id: "OTHERS",
-            source: 3045741222775799
+            source: 3045741222775799,
           },
           {
             values: [
@@ -3965,8 +3965,8 @@ const req = {
                 name: "CMPTRSTX15",
                 struct: null,
                 source: 3045741222775799,
-                id: null
-              }
+                id: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 3045741222775799,
@@ -3975,8 +3975,8 @@ const req = {
             value_id: null,
             value_struct: null,
             value_name: "CMPTRSTX15",
-            attribute_group_name: "Otros"
-          }
+            attribute_group_name: "Otros",
+          },
         ],
         original_price: null,
         category_id: "MLA431802",
@@ -3992,14 +3992,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 14,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA859228650",
@@ -4018,7 +4018,7 @@ const req = {
             "credits_profile",
             "credits_active_borrower",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 186203072,
@@ -4030,7 +4030,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/186203072v2c54f0.png",
             eshop_status_id: 2,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -4039,22 +4039,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0033,
-                value: 13
+                value: 13,
               },
               claims: {
                 period: "60 days",
                 rate: 0.013,
-                value: 51
+                value: 51,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0061,
-                value: 22
+                value: 22,
               },
               sales: {
                 period: "60 days",
-                completed: 3725
-              }
+                completed: 3725,
+              },
             },
             transactions: {
               canceled: 1310,
@@ -4063,11 +4063,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.01,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 31455
-            }
-          }
+              completed: 31455,
+            },
+          },
         },
         price: 1957,
         prices: {
@@ -4084,14 +4084,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -4102,16 +4102,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-15T04:59:13Z",
                 end_time: "2021-10-22T04:59:13Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1640.7,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T04:59:13Z"
-            }
+              last_updated: "2021-10-15T04:59:13Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -4131,20 +4131,20 @@ const req = {
           quantity: 12,
           amount: 277.52,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjBa",
-          city_name: "Villa Crespo"
+          city_name: "Villa Crespo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -4153,18 +4153,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjBa",
-            name: "Villa Crespo"
+            name: "Villa Crespo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -4180,17 +4180,17 @@ const req = {
                 id: "16362",
                 name: "Thonet & Vander",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "CABLE_LENGTH",
             value_id: "124833",
             value_struct: {
               number: 1.2,
-              unit: "m"
+              unit: "m",
             },
             values: [
               {
@@ -4198,16 +4198,16 @@ const req = {
                 name: "1.2 m",
                 struct: {
                   number: 1.2,
-                  unit: "m"
+                  unit: "m",
                 },
-                source: 1183438784296846
-              }
+                source: 1183438784296846,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1183438784296846,
             name: "Largo del cable",
             value_name: "1.2 m",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_id: "2230284",
@@ -4222,10 +4222,10 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             value_name: "Auriculares",
@@ -4235,15 +4235,15 @@ const req = {
                 id: null,
                 name: "Auriculares",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 6808261514773724,
             id: "LINE",
             value_id: null,
             attribute_group_name: "Otros",
-            name: "Línea"
+            name: "Línea",
           },
           {
             id: "MODEL",
@@ -4258,11 +4258,11 @@ const req = {
                 id: "5324584",
                 name: "Klein",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
-            attribute_group_name: "Otros"
-          }
+            attribute_group_name: "Otros",
+          },
         ],
         original_price: null,
         category_id: "MLA3697",
@@ -4277,14 +4277,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 15,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA886791270",
@@ -4304,22 +4304,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 2
+                value: 2,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0019,
-                value: 2
+                value: 2,
               },
               sales: {
                 period: "60 days",
-                completed: 1005
-              }
+                completed: 1005,
+              },
             },
             transactions: {
               canceled: 93,
@@ -4328,11 +4328,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.02,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 6210
-            }
-          }
+              completed: 6210,
+            },
+          },
         },
         price: 1090,
         prices: {
@@ -4349,10 +4349,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "21",
@@ -4365,21 +4365,21 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-22T03:00:00Z",
                 end_time: "2021-10-23T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4763934-MLA886791270",
-                promotion_type: "deal_of_the_day"
-              }
-            }
+                promotion_type: "deal_of_the_day",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -4399,20 +4399,20 @@ const req = {
           quantity: 12,
           amount: 154.57,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: null,
-          city_name: "CABA"
+          city_name: "CABA",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_out"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -4421,18 +4421,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: null,
-            name: "CABA"
+            name: "CABA",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -4448,10 +4448,10 @@ const req = {
                 id: null,
                 name: "Face Mask",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             attribute_group_id: "OTHERS",
@@ -4464,12 +4464,12 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
             source: 6808261514773724,
-            id: "ITEM_CONDITION"
+            id: "ITEM_CONDITION",
           },
           {
             attribute_group_id: "OTHERS",
@@ -4485,9 +4485,9 @@ const req = {
                 id: null,
                 name: "Tricap",
                 struct: null,
-                source: 6808261514773724
-              }
-            ]
+                source: 6808261514773724,
+              },
+            ],
           },
           {
             value_struct: null,
@@ -4499,14 +4499,14 @@ const req = {
                 struct: null,
                 source: 6808261514773724,
                 id: null,
-                name: "50"
-              }
+                name: "50",
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 6808261514773724,
-            name: "Unidades por envase"
-          }
+            name: "Unidades por envase",
+          },
         ],
         original_price: null,
         category_id: "MLA69570",
@@ -4520,14 +4520,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 16,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA920426859",
@@ -4546,7 +4546,7 @@ const req = {
             "mshops",
             "developer",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 37133205,
@@ -4558,7 +4558,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/37133205v1c42aa.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -4567,22 +4567,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0024,
-                value: 170
+                value: 170,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0119,
-                value: 819
+                value: 819,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0091,
-                value: 583
+                value: 583,
               },
               sales: {
                 period: "60 days",
-                completed: 65372
-              }
+                completed: 65372,
+              },
             },
             transactions: {
               canceled: 14767,
@@ -4591,11 +4591,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.01,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 294240
-            }
-          }
+              completed: 294240,
+            },
+          },
         },
         price: 2999,
         prices: {
@@ -4612,10 +4612,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "39",
@@ -4628,18 +4628,18 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-08-02T02:30:00Z",
                 end_time: "2022-01-01T02:59:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 campaign_id: "MLA6713",
                 promotion_id: "MLA6713",
-                promotion_type: "campaign"
-              }
-            }
+                promotion_type: "campaign",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -4650,16 +4650,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:37:21Z",
                 end_time: "2021-10-27T04:37:21Z",
-                eligible: true
+                eligible: true,
               },
               amount: 2999,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:37:21Z"
-            }
+              last_updated: "2021-10-20T04:37:21Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -4679,13 +4679,13 @@ const req = {
           quantity: 12,
           amount: 425.28,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjFa",
-          city_name: "Villa Ortúzar"
+          city_name: "Villa Ortúzar",
         },
         shipping: {
           free_shipping: true,
@@ -4693,10 +4693,10 @@ const req = {
           tags: [
             "fs_removed_by_tagger",
             "fs_threshold_mla_change_feb2021",
-            "self_service_in"
+            "self_service_in",
           ],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -4705,18 +4705,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjFa",
-            name: "Villa Ortúzar"
+            name: "Villa Ortúzar",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -4728,14 +4728,14 @@ const req = {
                 name: "Gadnic",
                 struct: null,
                 source: 1,
-                id: "410974"
-              }
+                id: "410974",
+              },
             ],
             attribute_group_id: "OTHERS",
             name: "Marca",
             value_id: "410974",
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             id: "ITEM_CONDITION",
@@ -4749,11 +4749,11 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "MODEL",
@@ -4764,21 +4764,21 @@ const req = {
                 source: 1,
                 id: "7991217",
                 name: "SOP00005",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1,
             value_id: "7991217",
             value_name: "SOP00005",
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             name: "Largo del paquete",
             value_id: null,
             value_struct: {
               number: 30.8,
-              unit: "cm"
+              unit: "cm",
             },
             values: [
               {
@@ -4786,21 +4786,21 @@ const req = {
                 name: "30.8 cm",
                 struct: {
                   number: 30.8,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             id: "PACKAGE_LENGTH",
             value_name: "30.8 cm",
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             value_struct: {
               number: 1300,
-              unit: "g"
+              unit: "g",
             },
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -4813,14 +4813,14 @@ const req = {
                 name: "1300 g",
                 struct: {
                   number: 1300,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             source: 1,
-            id: "PACKAGE_WEIGHT"
-          }
+            id: "PACKAGE_WEIGHT",
+          },
         ],
         original_price: 4599,
         category_id: "MLA41925",
@@ -4833,7 +4833,7 @@ const req = {
           "good_quality_thumbnail",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -4841,7 +4841,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 17
+        order_backend: 17,
       },
       {
         id: "MLA923361483",
@@ -4859,7 +4859,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 565963256,
@@ -4871,7 +4871,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/565963256v07fd16.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -4880,22 +4880,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0008,
-                value: 2
+                value: 2,
               },
               sales: {
                 period: "60 days",
-                completed: 2212
-              }
+                completed: 2212,
+              },
             },
             transactions: {
               canceled: 229,
@@ -4904,11 +4904,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0,
-                positive: 0.99
+                positive: 0.99,
               },
-              completed: 7515
-            }
-          }
+              completed: 7515,
+            },
+          },
         },
         price: 12821.6,
         prices: {
@@ -4925,10 +4925,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "15",
@@ -4941,13 +4941,13 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-18T03:00:00Z",
                 end_time: "2021-10-25T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4820711-MLA923361483",
-                promotion_type: "custom"
-              }
+                promotion_type: "custom",
+              },
             },
             {
               id: "16",
@@ -4960,17 +4960,17 @@ const req = {
                 context_restrictions: ["channel_mshops"],
                 start_time: "2021-10-18T13:58:59Z",
                 end_time: "2021-10-31T03:00:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "TR-565963256-202110180959345934:MLA923361483",
-                promotion_type: "custom"
-              }
-            }
+                promotion_type: "custom",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -4981,16 +4981,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-16T04:24:39Z",
                 end_time: "2021-10-23T04:24:39Z",
-                eligible: true
+                eligible: true,
               },
               amount: 12170,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-16T04:24:39Z"
-            }
+              last_updated: "2021-10-16T04:24:39Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -5010,20 +5010,20 @@ const req = {
           quantity: 12,
           amount: 1818.21,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: null,
-          city_name: "Villa Ballester"
+          city_name: "Villa Ballester",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["fulfillment", "self_service_out", "mandatory_free_shipping"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -5032,18 +5032,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: null,
-            name: "Villa Ballester"
+            name: "Villa Ballester",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -5053,8 +5053,8 @@ const req = {
                 source: 1,
                 id: "9845042",
                 name: "Sillas de Outlet",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             source: 1,
             attribute_group_id: "OTHERS",
@@ -5062,7 +5062,7 @@ const req = {
             id: "BRAND",
             name: "Marca",
             value_id: "9845042",
-            value_struct: null
+            value_struct: null,
           },
           {
             attribute_group_name: "Otros",
@@ -5075,12 +5075,12 @@ const req = {
                 source: 3376461333454861,
                 id: null,
                 name: "DIVA",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "DETAILED_MODEL",
-            value_id: null
+            value_id: null,
           },
           {
             values: [
@@ -5088,8 +5088,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -5098,7 +5098,7 @@ const req = {
             value_name: "Nuevo",
             value_struct: null,
             value_id: "2230284",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             value_id: "273414",
@@ -5107,8 +5107,8 @@ const req = {
                 id: "273414",
                 name: "Diva",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             value_struct: null,
@@ -5116,7 +5116,7 @@ const req = {
             source: 1,
             id: "MODEL",
             name: "Modelo",
-            value_name: "Diva"
+            value_name: "Diva",
           },
           {
             id: "PACKAGE_LENGTH",
@@ -5129,9 +5129,9 @@ const req = {
                 name: "55 cm",
                 struct: {
                   unit: "cm",
-                  number: 55
-                }
-              }
+                  number: 55,
+                },
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -5139,8 +5139,8 @@ const req = {
             value_name: "55 cm",
             value_struct: {
               number: 55,
-              unit: "cm"
-            }
+              unit: "cm",
+            },
           },
           {
             values: [
@@ -5150,21 +5150,21 @@ const req = {
                 name: "14000 g",
                 struct: {
                   number: 14000,
-                  unit: "g"
-                }
-              }
+                  unit: "g",
+                },
+              },
             ],
             value_id: null,
             value_struct: {
               number: 14000,
-              unit: "g"
+              unit: "g",
             },
             value_name: "14000 g",
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 1,
             id: "PACKAGE_WEIGHT",
-            name: "Peso del paquete"
+            name: "Peso del paquete",
           },
           {
             value_name: "1",
@@ -5174,16 +5174,16 @@ const req = {
                 id: "2726554",
                 name: "1",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             id: "UNITS_PER_PACK",
             name: "Unidades por pack",
             value_id: "2726554",
             attribute_group_id: "OTHERS",
-            source: 1
-          }
+            source: 1,
+          },
         ],
         original_price: 13640,
         category_id: "MLA30994",
@@ -5198,7 +5198,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -5206,7 +5206,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 18
+        order_backend: 18,
       },
       {
         id: "MLA883606168",
@@ -5226,22 +5226,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0113,
-                value: 13
+                value: 13,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0551,
-                value: 50
+                value: 50,
               },
               sales: {
                 period: "60 days",
-                completed: 1088
-              }
+                completed: 1088,
+              },
             },
             transactions: {
               canceled: 340,
@@ -5250,11 +5250,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 5831
-            }
-          }
+              completed: 5831,
+            },
+          },
         },
         price: 2100,
         prices: {
@@ -5271,18 +5271,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -5302,20 +5302,20 @@ const req = {
           quantity: 12,
           amount: 297.8,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -5324,18 +5324,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -5351,10 +5351,10 @@ const req = {
                 id: null,
                 name: "megamax",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             attribute_group_id: "OTHERS",
@@ -5368,11 +5368,11 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 6808261514773724,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             value_id: "2230284",
-            value_name: "Nuevo"
+            value_name: "Nuevo",
           },
           {
             id: "MODEL",
@@ -5386,12 +5386,12 @@ const req = {
                 id: null,
                 name: "tvj1000",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
-            source: 6808261514773724
-          }
+            source: 6808261514773724,
+          },
         ],
         original_price: null,
         category_id: "MLA41925",
@@ -5406,14 +5406,14 @@ const req = {
           "good_quality_thumbnail",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 19,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA883244390",
@@ -5430,7 +5430,7 @@ const req = {
             "large_seller",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           seller_reputation: {
             power_seller_status: "platinum",
@@ -5439,22 +5439,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0042,
-                value: 4
+                value: 4,
               },
               sales: {
                 period: "60 days",
-                completed: 947
-              }
+                completed: 947,
+              },
             },
             transactions: {
               canceled: 81,
@@ -5463,11 +5463,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0.01,
-                positive: 0.99
+                positive: 0.99,
               },
-              completed: 3806
-            }
-          }
+              completed: 3806,
+            },
+          },
         },
         price: 601,
         prices: {
@@ -5484,10 +5484,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "58",
@@ -5500,7 +5500,7 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-01T03:00:00Z",
                 end_time: "2021-11-01T02:00:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
@@ -5511,12 +5511,12 @@ const req = {
                 discount_meli_amount: 1,
                 campaign_discount_percentage: 15.73,
                 campaign_end_date: "2021-11-01T02:00:00Z",
-                order_item_price: 601
-              }
-            }
+                order_item_price: 601,
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -5527,16 +5527,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-14T04:12:49Z",
                 end_time: "2021-10-21T04:12:49Z",
-                eligible: true
+                eligible: true,
               },
               amount: 600,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-14T04:12:49Z"
-            }
+              last_updated: "2021-10-14T04:12:49Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -5556,20 +5556,20 @@ const req = {
           quantity: 12,
           amount: 85.23,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: null,
-          city_name: "Villa Lynch"
+          city_name: "Villa Lynch",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -5578,18 +5578,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: null,
-            name: "Villa Lynch"
+            name: "Villa Lynch",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -5601,14 +5601,14 @@ const req = {
                 struct: null,
                 source: 2302378583965437,
                 id: "8866183",
-                name: "Elite Professional"
-              }
+                name: "Elite Professional",
+              },
             ],
             source: 2302378583965437,
             id: "BRAND",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             attribute_group_id: "OTHERS",
@@ -5621,12 +5621,12 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 2302378583965437
-              }
+                source: 2302378583965437,
+              },
             ],
             source: 2302378583965437,
             id: "ITEM_CONDITION",
-            name: "Condición del ítem"
+            name: "Condición del ítem",
           },
           {
             name: "Modelo",
@@ -5642,9 +5642,9 @@ const req = {
                 id: null,
                 name: "Blanco",
                 struct: null,
-                source: 2302378583965437
-              }
-            ]
+                source: 2302378583965437,
+              },
+            ],
           },
           {
             attribute_group_name: "Otros",
@@ -5655,15 +5655,15 @@ const req = {
                 id: null,
                 name: "1",
                 struct: null,
-                source: 2302378583965437
-              }
+                source: 2302378583965437,
+              },
             ],
             attribute_group_id: "OTHERS",
             name: "Unidades por envase",
             value_name: "1",
             value_struct: null,
-            source: 2302378583965437
-          }
+            source: 2302378583965437,
+          },
         ],
         original_price: 712,
         category_id: "MLA69570",
@@ -5678,14 +5678,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 20,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA874608431",
@@ -5702,7 +5702,7 @@ const req = {
             "mshops",
             "eshop",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 296728610,
@@ -5714,7 +5714,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/296728610va250f6.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -5723,22 +5723,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0025,
-                value: 43
+                value: 43,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0106,
-                value: 182
+                value: 182,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0021,
-                value: 35
+                value: 35,
               },
               sales: {
                 period: "60 days",
-                completed: 16038
-              }
+                completed: 16038,
+              },
             },
             transactions: {
               canceled: 6322,
@@ -5747,11 +5747,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.01,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 102329
-            }
-          }
+              completed: 102329,
+            },
+          },
         },
         price: 829,
         prices: {
@@ -5768,14 +5768,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -5786,16 +5786,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-16T04:12:28Z",
                 end_time: "2021-10-23T04:12:28Z",
-                eligible: true
+                eligible: true,
               },
               amount: 746.1,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-16T04:12:28Z"
-            }
+              last_updated: "2021-10-16T04:12:28Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -5815,20 +5815,20 @@ const req = {
           quantity: 12,
           amount: 117.56,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkFMTTMwNTBa",
-          city_name: "Almagro"
+          city_name: "Almagro",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -5837,18 +5837,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkFMTTMwNTBa",
-            name: "Almagro"
+            name: "Almagro",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -5860,14 +5860,14 @@ const req = {
                 id: "8900905",
                 name: "Suono",
                 struct: null,
-                source: 4060709329251625
-              }
+                source: 4060709329251625,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 4060709329251625,
             value_id: "8900905",
-            value_struct: null
+            value_struct: null,
           },
           {
             id: "ITEM_CONDITION",
@@ -5878,14 +5878,14 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 2860837171021627,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_name: "Otros",
             name: "Condición del ítem",
             value_name: "Nuevo",
             attribute_group_id: "OTHERS",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             value_name: "161",
@@ -5895,16 +5895,16 @@ const req = {
                 struct: null,
                 source: 2860837171021627,
                 id: null,
-                name: "161"
-              }
+                name: "161",
+              },
             ],
             attribute_group_name: "Otros",
             name: "Modelo",
             value_id: null,
             source: 2860837171021627,
             id: "MODEL",
-            attribute_group_id: "OTHERS"
-          }
+            attribute_group_id: "OTHERS",
+          },
         ],
         original_price: null,
         category_id: "MLA41925",
@@ -5919,14 +5919,14 @@ const req = {
           "brand_verified",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 21,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA824915907",
@@ -5943,7 +5943,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 113746522,
@@ -5955,7 +5955,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/113746522.jpg",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -5964,22 +5964,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0002,
-                value: 5
+                value: 5,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0141,
-                value: 303
+                value: 303,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0061,
-                value: 117
+                value: 117,
               },
               sales: {
                 period: "60 days",
-                completed: 20471
-              }
+                completed: 20471,
+              },
             },
             transactions: {
               canceled: 8492,
@@ -5988,11 +5988,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.02,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 170755
-            }
-          }
+              completed: 170755,
+            },
+          },
         },
         price: 6499,
         prices: {
@@ -6009,18 +6009,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -6040,20 +6040,20 @@ const req = {
           quantity: 12,
           amount: 921.61,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjFa",
-          city_name: "Villa Ortúzar"
+          city_name: "Villa Ortúzar",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["fulfillment", "self_service_in", "mandatory_free_shipping"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -6062,18 +6062,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjFa",
-            name: "Villa Ortúzar"
+            name: "Villa Ortúzar",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -6087,12 +6087,12 @@ const req = {
                 id: "1007168",
                 name: "Femmto",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             value_name: "Femmto",
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             id: "ITEM_CONDITION",
@@ -6106,11 +6106,11 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 2601165593579366
-              }
+                source: 2601165593579366,
+              },
             ],
             attribute_group_name: "Otros",
-            source: 2601165593579366
+            source: 2601165593579366,
           },
           {
             value_id: "2317805",
@@ -6124,16 +6124,16 @@ const req = {
                 id: "2317805",
                 name: "HLT7",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
-            id: "MODEL"
+            id: "MODEL",
           },
           {
             value_struct: {
               number: 26.8,
-              unit: "cm"
+              unit: "cm",
             },
             attribute_group_id: "OTHERS",
             source: 4333789534002961,
@@ -6147,12 +6147,12 @@ const req = {
                 name: "26.8 cm",
                 struct: {
                   number: 26.8,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             values: [
@@ -6161,10 +6161,10 @@ const req = {
                 name: "1660 g",
                 struct: {
                   number: 1660,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_name: "Otros",
             source: 4333789534002961,
@@ -6172,12 +6172,12 @@ const req = {
             value_name: "1660 g",
             value_struct: {
               number: 1660,
-              unit: "g"
+              unit: "g",
             },
             attribute_group_id: "OTHERS",
             id: "PACKAGE_WEIGHT",
-            name: "Peso del paquete"
-          }
+            name: "Peso del paquete",
+          },
         ],
         original_price: null,
         category_id: "MLA4622",
@@ -6193,7 +6193,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -6201,7 +6201,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 22
+        order_backend: 22,
       },
       {
         id: "MLA907751508",
@@ -6221,22 +6221,22 @@ const req = {
               cancellations: {
                 period: "365 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "365 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               delayed_handling_time: {
                 period: "365 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               sales: {
                 period: "365 days",
-                completed: 28
-              }
+                completed: 28,
+              },
             },
             transactions: {
               canceled: 1,
@@ -6245,11 +6245,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0,
-                positive: 1
+                positive: 1,
               },
-              completed: 28
-            }
-          }
+              completed: 28,
+            },
+          },
         },
         price: 1999,
         prices: {
@@ -6266,18 +6266,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -6297,20 +6297,20 @@ const req = {
           quantity: 12,
           amount: 283.47,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-X",
           state_name: "Córdoba",
           city_id: "TUxBQ0NBUGNiZGQx",
-          city_name: "Córdoba"
+          city_name: "Córdoba",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: [],
           logistic_type: "drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -6319,18 +6319,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-X",
-            name: "Córdoba"
+            name: "Córdoba",
           },
           city: {
             id: "TUxBQ0NBUGNiZGQx",
-            name: "Córdoba"
+            name: "Córdoba",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -6345,11 +6345,11 @@ const req = {
                 name: "Importado",
                 struct: null,
                 source: 6808261514773724,
-                id: "9103816"
-              }
+                id: "9103816",
+              },
             ],
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             attribute_group_id: "OTHERS",
@@ -6360,15 +6360,15 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
             source: 6808261514773724,
             id: "ITEM_CONDITION",
             name: "Condición del ítem",
-            value_id: "2230284"
-          }
+            value_id: "2230284",
+          },
         ],
         original_price: null,
         category_id: "MLA413542",
@@ -6381,14 +6381,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 23,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA901148116",
@@ -6406,7 +6406,7 @@ const req = {
             "mshops",
             "credits_priority_2",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 67229158,
@@ -6418,7 +6418,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/67229158v7b69b6.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -6427,22 +6427,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.003,
-                value: 6
+                value: 6,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0097,
-                value: 19
+                value: 19,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0372,
-                value: 68
+                value: 68,
               },
               sales: {
                 period: "60 days",
-                completed: 1869
-              }
+                completed: 1869,
+              },
             },
             transactions: {
               canceled: 301,
@@ -6451,11 +6451,11 @@ const req = {
               ratings: {
                 negative: 0.04,
                 neutral: 0.02,
-                positive: 0.94
+                positive: 0.94,
               },
-              completed: 7172
-            }
-          }
+              completed: 7172,
+            },
+          },
         },
         price: 1390,
         prices: {
@@ -6472,14 +6472,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -6490,16 +6490,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:27:16Z",
                 end_time: "2021-10-27T04:27:16Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1269,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:27:16Z"
-            }
+              last_updated: "2021-10-20T04:27:16Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -6519,20 +6519,20 @@ const req = {
           quantity: 12,
           amount: 197.11,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: "TUxBQ0FWRTc5OTQ1",
-          city_name: "Avellaneda"
+          city_name: "Avellaneda",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -6541,18 +6541,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: "TUxBQ0FWRTc5OTQ1",
-            name: "Avellaneda"
+            name: "Avellaneda",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -6565,13 +6565,13 @@ const req = {
                 source: 6808261514773724,
                 id: "432859",
                 name: "Company",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "BRAND",
-            name: "Marca"
+            name: "Marca",
           },
           {
             value_struct: null,
@@ -6580,8 +6580,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
             source: 6808261514773724,
@@ -6589,7 +6589,7 @@ const req = {
             name: "Condición del ítem",
             value_id: "2230284",
             value_name: "Nuevo",
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             id: "MODEL",
@@ -6600,14 +6600,14 @@ const req = {
                 id: null,
                 name: "Tropical mecánico",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
             value_name: "Tropical mecánico",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             value_name: "Pack",
@@ -6620,12 +6620,12 @@ const req = {
                 name: "Pack",
                 struct: null,
                 source: 6808261514773724,
-                id: "1359392"
-              }
+                id: "1359392",
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 6808261514773724,
-            id: "SALE_FORMAT"
+            id: "SALE_FORMAT",
           },
           {
             id: "UNITS_PER_PACK",
@@ -6639,12 +6639,12 @@ const req = {
                 source: 6808261514773724,
                 id: null,
                 name: "2",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
-          }
+            source: 6808261514773724,
+          },
         ],
         original_price: null,
         category_id: "MLA4771",
@@ -6659,14 +6659,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 24,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA904122962",
@@ -6683,7 +6683,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 343596395,
@@ -6695,7 +6695,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/343596395v9f2c96.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -6704,22 +6704,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0042,
-                value: 4
+                value: 4,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 2
+                value: 2,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0082,
-                value: 7
+                value: 7,
               },
               sales: {
                 period: "60 days",
-                completed: 897
-              }
+                completed: 897,
+              },
             },
             transactions: {
               canceled: 218,
@@ -6728,11 +6728,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0,
-                positive: 1
+                positive: 1,
               },
-              completed: 6008
-            }
-          }
+              completed: 6008,
+            },
+          },
         },
         price: 670.54,
         prices: {
@@ -6749,10 +6749,10 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "17",
@@ -6765,18 +6765,18 @@ const req = {
                 context_restrictions: ["channel_mshops"],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -6796,20 +6796,20 @@ const req = {
           quantity: 12,
           amount: 95.09,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQk1PTjUxOTJa",
-          city_name: "Monserrat"
+          city_name: "Monserrat",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -6818,18 +6818,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQk1PTjUxOTJa",
-            name: "Monserrat"
+            name: "Monserrat",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -6843,12 +6843,12 @@ const req = {
                 name: "ACC",
                 struct: null,
                 source: 7848696995774689,
-                id: "4541698"
-              }
+                id: "4541698",
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 7848696995774689
+            source: 7848696995774689,
           },
           {
             value_struct: null,
@@ -6858,15 +6858,15 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "ITEM_CONDITION",
             name: "Condición del ítem",
             value_id: "2230284",
-            value_name: "Nuevo"
+            value_name: "Nuevo",
           },
           {
             id: "LENGTH",
@@ -6879,18 +6879,18 @@ const req = {
                 name: "52 cm",
                 struct: {
                   number: 52,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 3376461333454861
-              }
+                source: 3376461333454861,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             value_struct: {
               number: 52,
-              unit: "cm"
+              unit: "cm",
             },
-            source: 3376461333454861
+            source: 3376461333454861,
           },
           {
             value_id: null,
@@ -6900,15 +6900,15 @@ const req = {
                 id: null,
                 name: "PS-1",
                 struct: null,
-                source: 7848696995774689
-              }
+                source: 7848696995774689,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "MODEL",
             name: "Modelo",
             value_name: "PS-1",
-            source: 7848696995774689
+            source: 7848696995774689,
           },
           {
             name: "Unidades por envase",
@@ -6917,8 +6917,8 @@ const req = {
                 name: "1",
                 struct: null,
                 source: 3376461333454861,
-                id: null
-              }
+                id: null,
+              },
             ],
             id: "UNITS_PER_PACKAGE",
             value_name: "1",
@@ -6926,8 +6926,8 @@ const req = {
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 3376461333454861,
-            value_id: null
-          }
+            value_id: null,
+          },
         ],
         original_price: null,
         category_id: "MLA413546",
@@ -6941,14 +6941,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 25,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA824913678",
@@ -6965,7 +6965,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 113746522,
@@ -6977,7 +6977,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/113746522.jpg",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -6986,22 +6986,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0002,
-                value: 5
+                value: 5,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0141,
-                value: 303
+                value: 303,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0061,
-                value: 117
+                value: 117,
               },
               sales: {
                 period: "60 days",
-                completed: 20471
-              }
+                completed: 20471,
+              },
             },
             transactions: {
               canceled: 8492,
@@ -7010,11 +7010,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.02,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 170755
-            }
-          }
+              completed: 170755,
+            },
+          },
         },
         price: 9999,
         prices: {
@@ -7031,14 +7031,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -7049,16 +7049,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-14T04:16:54Z",
                 end_time: "2021-10-21T04:16:54Z",
-                eligible: true
+                eligible: true,
               },
               amount: 8999.1,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-14T04:16:54Z"
-            }
+              last_updated: "2021-10-14T04:16:54Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -7078,20 +7078,20 @@ const req = {
           quantity: 12,
           amount: 1417.94,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjFa",
-          city_name: "Villa Ortúzar"
+          city_name: "Villa Ortúzar",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["fulfillment", "self_service_in", "mandatory_free_shipping"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -7100,18 +7100,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjFa",
-            name: "Villa Ortúzar"
+            name: "Villa Ortúzar",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -7122,15 +7122,15 @@ const req = {
                 name: "Femmto",
                 struct: null,
                 source: 1,
-                id: "1007168"
-              }
+                id: "1007168",
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "BRAND",
             value_id: "1007168",
             value_struct: null,
-            source: 1
+            source: 1,
           },
           {
             value_id: "2230284",
@@ -7143,12 +7143,12 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 2601165593579366,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            name: "Condición del ítem"
+            name: "Condición del ítem",
           },
           {
             value_struct: null,
@@ -7161,12 +7161,12 @@ const req = {
                 id: "2304707",
                 name: "HLT12",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1,
-            name: "Modelo"
+            name: "Modelo",
           },
           {
             name: "Largo del paquete",
@@ -7178,19 +7178,19 @@ const req = {
                 name: "14.8 cm",
                 struct: {
                   number: 14.8,
-                  unit: "cm"
-                }
-              }
+                  unit: "cm",
+                },
+              },
             ],
             id: "PACKAGE_LENGTH",
             value_id: null,
             value_struct: {
               number: 14.8,
-              unit: "cm"
+              unit: "cm",
             },
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 4333789534002961
+            source: 4333789534002961,
           },
           {
             values: [
@@ -7199,10 +7199,10 @@ const req = {
                 name: "2440 g",
                 struct: {
                   number: 2440,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -7212,10 +7212,10 @@ const req = {
             name: "Peso del paquete",
             value_struct: {
               number: 2440,
-              unit: "g"
+              unit: "g",
             },
-            source: 4333789534002961
-          }
+            source: 4333789534002961,
+          },
         ],
         original_price: null,
         category_id: "MLA4622",
@@ -7231,7 +7231,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -7239,7 +7239,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 26
+        order_backend: 26,
       },
       {
         id: "MLA732966233",
@@ -7256,7 +7256,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 113746522,
@@ -7268,7 +7268,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/113746522.jpg",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -7277,22 +7277,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0002,
-                value: 5
+                value: 5,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0141,
-                value: 303
+                value: 303,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0061,
-                value: 117
+                value: 117,
               },
               sales: {
                 period: "60 days",
-                completed: 20471
-              }
+                completed: 20471,
+              },
             },
             transactions: {
               canceled: 8492,
@@ -7301,11 +7301,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.02,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 170755
-            }
-          }
+              completed: 170755,
+            },
+          },
         },
         price: 13499,
         prices: {
@@ -7322,10 +7322,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "3",
@@ -7338,17 +7338,17 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-07T03:00:00Z",
                 end_time: "2021-10-14T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4587578-MLA732966233",
-                promotion_type: "custom"
-              }
-            }
+                promotion_type: "custom",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -7359,16 +7359,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-17T04:26:04Z",
                 end_time: "2021-10-24T04:26:04Z",
-                eligible: true
+                eligible: true,
               },
               amount: 13499,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-17T04:26:04Z"
-            }
+              last_updated: "2021-10-17T04:26:04Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -7388,20 +7388,20 @@ const req = {
           quantity: 6,
           amount: 2249.83,
           rate: 0,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjFa",
-          city_name: "Villa Ortúzar"
+          city_name: "Villa Ortúzar",
         },
         shipping: {
           free_shipping: false,
           mode: "custom",
           tags: [],
           logistic_type: "custom",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -7410,18 +7410,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjFa",
-            name: "Villa Ortúzar"
+            name: "Villa Ortúzar",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -7431,8 +7431,8 @@ const req = {
                 id: "1136368",
                 name: "Onebit",
                 struct: null,
-                source: 2601165593579366
-              }
+                source: 2601165593579366,
+              },
             ],
             attribute_group_name: "Otros",
             id: "BRAND",
@@ -7440,7 +7440,7 @@ const req = {
             attribute_group_id: "OTHERS",
             source: 2601165593579366,
             value_name: "Onebit",
-            value_struct: null
+            value_struct: null,
           },
           {
             values: [
@@ -7448,8 +7448,8 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 2601165593579366,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_name: "Otros",
             source: 2601165593579366,
@@ -7458,7 +7458,7 @@ const req = {
             value_id: "2230284",
             value_struct: null,
             value_name: "Nuevo",
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             value_struct: null,
@@ -7467,8 +7467,8 @@ const req = {
                 id: "3935122",
                 name: "150'",
                 struct: null,
-                source: 2601165593579366
-              }
+                source: 2601165593579366,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -7476,11 +7476,11 @@ const req = {
             value_id: "3935122",
             value_name: "150'",
             source: 2601165593579366,
-            id: "MODEL"
-          }
+            id: "MODEL",
+          },
         ],
         differential_pricing: {
-          id: 33678187
+          id: 33678187,
         },
         original_price: null,
         category_id: "MLA4650",
@@ -7495,14 +7495,14 @@ const req = {
           "good_quality_picture",
           "immediate_payment",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 27,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA860835205",
@@ -7525,7 +7525,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/359462540v9b27e1.png",
             eshop_status_id: 2,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -7534,22 +7534,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0027,
-                value: 15
+                value: 15,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0079,
-                value: 43
+                value: 43,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0056,
-                value: 28
+                value: 28,
               },
               sales: {
                 period: "60 days",
-                completed: 5216
-              }
+                completed: 5216,
+              },
             },
             transactions: {
               canceled: 2178,
@@ -7558,11 +7558,11 @@ const req = {
               ratings: {
                 negative: 0.05,
                 neutral: 0.02,
-                positive: 0.93
+                positive: 0.93,
               },
-              completed: 43798
-            }
-          }
+              completed: 43798,
+            },
+          },
         },
         price: 2174,
         prices: {
@@ -7579,14 +7579,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -7597,16 +7597,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-15T04:30:20Z",
                 end_time: "2021-10-22T04:30:20Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1823.4,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T04:30:20Z"
-            }
+              last_updated: "2021-10-15T04:30:20Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -7626,20 +7626,20 @@ const req = {
           quantity: 6,
           amount: 362.33,
           rate: 0,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlBBTDI1MTVa",
-          city_name: "Palermo"
+          city_name: "Palermo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -7648,18 +7648,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlBBTDI1MTVa",
-            name: "Palermo"
+            name: "Palermo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -7669,8 +7669,8 @@ const req = {
                 id: "16362",
                 name: "Thonet & Vander",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -7678,7 +7678,7 @@ const req = {
             name: "Marca",
             value_id: "16362",
             value_name: "Thonet & Vander",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             values: [
@@ -7687,10 +7687,10 @@ const req = {
                 name: "1.2 m",
                 struct: {
                   number: 1.2,
-                  unit: "m"
+                  unit: "m",
                 },
-                source: 1183438784296846
-              }
+                source: 1183438784296846,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1183438784296846,
@@ -7700,9 +7700,9 @@ const req = {
             name: "Largo del cable",
             value_struct: {
               number: 1.2,
-              unit: "m"
+              unit: "m",
             },
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             id: "ITEM_CONDITION",
@@ -7716,11 +7716,11 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_id: "OTHERS",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             id: "LINE",
@@ -7731,14 +7731,14 @@ const req = {
                 id: null,
                 name: "Auriculares",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_id: "OTHERS",
             value_id: null,
             value_name: "Auriculares",
             attribute_group_name: "Otros",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             value_id: "5324584",
@@ -7747,8 +7747,8 @@ const req = {
                 id: "5324584",
                 name: "Klein",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             value_struct: null,
             attribute_group_id: "OTHERS",
@@ -7756,11 +7756,11 @@ const req = {
             source: 2860837171021627,
             id: "MODEL",
             name: "Modelo",
-            value_name: "Klein"
-          }
+            value_name: "Klein",
+          },
         ],
         differential_pricing: {
-          id: 35713341
+          id: 35713341,
         },
         original_price: null,
         category_id: "MLA3697",
@@ -7774,14 +7774,14 @@ const req = {
           "good_quality_picture",
           "good_quality_thumbnail",
           "immediate_payment",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 28,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA880570772",
@@ -7800,7 +7800,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 162321615,
@@ -7812,7 +7812,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/162321615v057d4f.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -7821,22 +7821,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0035,
-                value: 75
+                value: 75,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0007,
-                value: 15
+                value: 15,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0097,
-                value: 192
+                value: 192,
               },
               sales: {
                 period: "60 days",
-                completed: 19621
-              }
+                completed: 19621,
+              },
             },
             transactions: {
               canceled: 4781,
@@ -7845,11 +7845,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 75742
-            }
-          }
+              completed: 75742,
+            },
+          },
         },
         price: 139,
         prices: {
@@ -7866,10 +7866,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "38",
@@ -7882,18 +7882,18 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2020-01-02T17:24:00Z",
                 end_time: "2031-01-01T02:59:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 campaign_id: "MLA3411",
                 promotion_id: "MLA3411",
-                promotion_type: "campaign"
-              }
-            }
+                promotion_type: "campaign",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -7904,16 +7904,16 @@ const req = {
                 context_restrictions: [],
                 start_time: "2021-03-17T04:29:13Z",
                 end_time: "2021-03-20T04:29:13Z",
-                eligible: true
+                eligible: true,
               },
               amount: 90,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-03-17T04:29:13Z"
-            }
+              last_updated: "2021-03-17T04:29:13Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -7933,20 +7933,20 @@ const req = {
           quantity: 12,
           amount: 19.71,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-X",
           state_name: "Córdoba",
           city_id: null,
-          city_name: "Córdoba"
+          city_name: "Córdoba",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -7955,18 +7955,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-X",
-            name: "Córdoba"
+            name: "Córdoba",
           },
           city: {
             id: null,
-            name: "Córdoba"
+            name: "Córdoba",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -7977,15 +7977,15 @@ const req = {
                 name: "Nosotras",
                 struct: null,
                 source: 1,
-                id: "8783981"
-              }
+                id: "8783981",
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "BRAND",
             name: "Marca",
             value_struct: null,
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             value_struct: null,
@@ -7994,8 +7994,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 4954751883138633
-              }
+                source: 4954751883138633,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 4954751883138633,
@@ -8003,7 +8003,7 @@ const req = {
             value_name: "Nuevo",
             attribute_group_name: "Otros",
             id: "ITEM_CONDITION",
-            value_id: "2230284"
+            value_id: "2230284",
           },
           {
             attribute_group_id: "OTHERS",
@@ -8018,10 +8018,10 @@ const req = {
                 id: "113156",
                 name: "Clásica",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
-            source: 1
+            source: 1,
           },
           {
             value_id: null,
@@ -8032,10 +8032,10 @@ const req = {
                 name: "15 cm",
                 struct: {
                   number: 15,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_name: "Otros",
             source: 4333789534002961,
@@ -8043,9 +8043,9 @@ const req = {
             name: "Largo del paquete",
             value_struct: {
               number: 15,
-              unit: "cm"
+              unit: "cm",
             },
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             value_id: null,
@@ -8055,10 +8055,10 @@ const req = {
                 name: "80 g",
                 struct: {
                   number: 80,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_name: "Otros",
             source: 4333789534002961,
@@ -8068,8 +8068,8 @@ const req = {
             value_name: "80 g",
             value_struct: {
               number: 80,
-              unit: "g"
-            }
+              unit: "g",
+            },
           },
           {
             name: "Cantidad de packs",
@@ -8084,10 +8084,10 @@ const req = {
                 struct: null,
                 source: 4954751883138633,
                 id: null,
-                name: "1"
-              }
+                name: "1",
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             value_id: "8778604",
@@ -8098,15 +8098,15 @@ const req = {
                 source: 1,
                 id: "8778604",
                 name: "16",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             id: "UNITS_PER_PACKAGE",
             name: "Unidades por envase",
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 1
-          }
+            source: 1,
+          },
         ],
         original_price: 190,
         category_id: "MLA409090",
@@ -8121,7 +8121,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -8129,7 +8129,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 29
+        order_backend: 29,
       },
       {
         id: "MLA856480998",
@@ -8149,22 +8149,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0113,
-                value: 13
+                value: 13,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0551,
-                value: 50
+                value: 50,
               },
               sales: {
                 period: "60 days",
-                completed: 1088
-              }
+                completed: 1088,
+              },
             },
             transactions: {
               canceled: 340,
@@ -8173,11 +8173,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 5831
-            }
-          }
+              completed: 5831,
+            },
+          },
         },
         price: 355,
         prices: {
@@ -8194,18 +8194,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -8225,20 +8225,20 @@ const req = {
           quantity: 12,
           amount: 50.34,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -8247,18 +8247,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -8275,9 +8275,9 @@ const req = {
                 id: null,
                 name: "MEGAMAX",
                 struct: null,
-                source: 6808261514773724
-              }
-            ]
+                source: 6808261514773724,
+              },
+            ],
           },
           {
             id: "ITEM_CONDITION",
@@ -8293,9 +8293,9 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 6808261514773724
-              }
-            ]
+                source: 6808261514773724,
+              },
+            ],
           },
           {
             attribute_group_id: "OTHERS",
@@ -8310,11 +8310,11 @@ const req = {
                 id: null,
                 name: "F-188",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
-            source: 6808261514773724
-          }
+            source: 6808261514773724,
+          },
         ],
         original_price: null,
         category_id: "MLA49340",
@@ -8328,14 +8328,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 30,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA820413531",
@@ -8353,7 +8353,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 232127533,
@@ -8365,7 +8365,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/232127533v7cd29f.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -8374,22 +8374,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0014,
-                value: 15
+                value: 15,
               },
               claims: {
                 period: "60 days",
                 rate: 0.006,
-                value: 61
+                value: 61,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0142,
-                value: 130
+                value: 130,
               },
               sales: {
                 period: "60 days",
-                completed: 9541
-              }
+                completed: 9541,
+              },
             },
             transactions: {
               canceled: 2506,
@@ -8398,11 +8398,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 66045
-            }
-          }
+              completed: 66045,
+            },
+          },
         },
         price: 1790,
         prices: {
@@ -8419,18 +8419,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -8450,20 +8450,20 @@ const req = {
           quantity: 12,
           amount: 253.84,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -8472,18 +8472,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -8497,12 +8497,12 @@ const req = {
                 source: 7092,
                 id: "42338",
                 name: "Zoom",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             value_id: "42338",
             value_name: "Zoom",
-            source: 7092
+            source: 7092,
           },
           {
             value_name: "Nuevo",
@@ -8517,10 +8517,10 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 8342579661593500
-              }
+                source: 8342579661593500,
+              },
             ],
-            id: "ITEM_CONDITION"
+            id: "ITEM_CONDITION",
           },
           {
             value_id: null,
@@ -8530,16 +8530,16 @@ const req = {
                 id: null,
                 name: "Wash",
                 struct: null,
-                source: 7092
-              }
+                source: 7092,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "MODEL",
             name: "Modelo",
             value_name: "Wash",
-            source: 7092
-          }
+            source: 7092,
+          },
         ],
         original_price: null,
         category_id: "MLA414031",
@@ -8554,14 +8554,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 31,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA933154286",
@@ -8578,7 +8578,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 402373302,
@@ -8590,7 +8590,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/402373302v74447e.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -8599,22 +8599,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0007,
-                value: 6
+                value: 6,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0142,
-                value: 119
+                value: 119,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0029,
-                value: 22
+                value: 22,
               },
               sales: {
                 period: "60 days",
-                completed: 7719
-              }
+                completed: 7719,
+              },
             },
             transactions: {
               canceled: 1756,
@@ -8623,11 +8623,11 @@ const req = {
               ratings: {
                 negative: 0.03,
                 neutral: 0.03,
-                positive: 0.94
+                positive: 0.94,
               },
-              completed: 25130
-            }
-          }
+              completed: 25130,
+            },
+          },
         },
         price: 1850,
         prices: {
@@ -8644,18 +8644,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -8675,20 +8675,20 @@ const req = {
           quantity: 12,
           amount: 262.35,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -8697,18 +8697,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -8722,12 +8722,12 @@ const req = {
                 struct: null,
                 source: 3376461333454861,
                 id: "2576737",
-                name: "Home Design"
-              }
+                name: "Home Design",
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "BRAND",
-            name: "Marca"
+            name: "Marca",
           },
           {
             attribute_group_name: "Otros",
@@ -8741,11 +8741,11 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
             attribute_group_id: "OTHERS",
-            id: "ITEM_CONDITION"
+            id: "ITEM_CONDITION",
           },
           {
             value_struct: null,
@@ -8754,8 +8754,8 @@ const req = {
                 id: "2535798",
                 name: "HDL-117B-2",
                 struct: null,
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
             attribute_group_name: "Otros",
             id: "MODEL",
@@ -8763,8 +8763,8 @@ const req = {
             value_name: "HDL-117B-2",
             value_id: "2535798",
             attribute_group_id: "OTHERS",
-            source: 3045741222775799
-          }
+            source: 3045741222775799,
+          },
         ],
         original_price: null,
         category_id: "MLA41925",
@@ -8778,14 +8778,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 32,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA919942038",
@@ -8804,7 +8804,7 @@ const req = {
             "mshops",
             "developer",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 37133205,
@@ -8816,7 +8816,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/37133205v1c42aa.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -8825,22 +8825,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0024,
-                value: 170
+                value: 170,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0119,
-                value: 819
+                value: 819,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0091,
-                value: 583
+                value: 583,
               },
               sales: {
                 period: "60 days",
-                completed: 65372
-              }
+                completed: 65372,
+              },
             },
             transactions: {
               canceled: 14767,
@@ -8849,11 +8849,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.01,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 294240
-            }
-          }
+              completed: 294240,
+            },
+          },
         },
         price: 14999,
         prices: {
@@ -8870,10 +8870,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "102",
@@ -8886,18 +8886,18 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-08-02T02:30:00Z",
                 end_time: "2022-01-01T02:59:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 campaign_id: "MLA6713",
                 promotion_id: "MLA6713",
-                promotion_type: "campaign"
-              }
-            }
+                promotion_type: "campaign",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -8908,16 +8908,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:37:16Z",
                 end_time: "2021-10-27T04:37:16Z",
-                eligible: true
+                eligible: true,
               },
               amount: 13499,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:37:16Z"
-            }
+              last_updated: "2021-10-20T04:37:16Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -8937,20 +8937,20 @@ const req = {
           quantity: 12,
           amount: 2126.98,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDQyMjFa",
-          city_name: "Villa Ortúzar"
+          city_name: "Villa Ortúzar",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_in", "mandatory_free_shipping"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -8959,18 +8959,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDQyMjFa",
-            name: "Villa Ortúzar"
+            name: "Villa Ortúzar",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -8984,12 +8984,12 @@ const req = {
                 id: "410974",
                 name: "Gadnic",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            name: "Marca"
+            name: "Marca",
           },
           {
             value_id: "2230284",
@@ -9004,10 +9004,10 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             name: "Modelo",
@@ -9017,40 +9017,40 @@ const req = {
                 id: "4556487",
                 name: "MAQCOS02",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             id: "MODEL",
             value_id: "4556487",
             value_name: "MAQCOS02",
             attribute_group_id: "OTHERS",
-            source: 1
+            source: 1,
           },
           {
             name: "Potencia",
             value_struct: {
               unit: "W",
-              number: 7.2
+              number: 7.2,
             },
             values: [
               {
                 struct: {
                   number: 7.2,
-                  unit: "W"
+                  unit: "W",
                 },
                 source: 1572,
                 id: "7013990",
-                name: "7.2 W"
-              }
+                name: "7.2 W",
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1572,
             id: "POWER",
             value_id: "7013990",
             value_name: "7.2 W",
-            attribute_group_name: "Otros"
-          }
+            attribute_group_name: "Otros",
+          },
         ],
         original_price: 23099,
         category_id: "MLA4622",
@@ -9065,7 +9065,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -9073,7 +9073,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 33
+        order_backend: 33,
       },
       {
         id: "MLA856484195",
@@ -9093,22 +9093,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0113,
-                value: 13
+                value: 13,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0551,
-                value: 50
+                value: 50,
               },
               sales: {
                 period: "60 days",
-                completed: 1088
-              }
+                completed: 1088,
+              },
             },
             transactions: {
               canceled: 340,
@@ -9117,11 +9117,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 5831
-            }
-          }
+              completed: 5831,
+            },
+          },
         },
         price: 400,
         prices: {
@@ -9138,18 +9138,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -9169,20 +9169,20 @@ const req = {
           quantity: 12,
           amount: 56.72,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -9191,18 +9191,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -9217,11 +9217,11 @@ const req = {
                 source: 6808261514773724,
                 id: null,
                 name: "MEGAMAX",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             source: 6808261514773724,
@@ -9231,15 +9231,15 @@ const req = {
                 struct: null,
                 source: 6808261514773724,
                 id: "2230284",
-                name: "Nuevo"
-              }
+                name: "Nuevo",
+              },
             ],
             attribute_group_name: "Otros",
             value_struct: null,
             attribute_group_id: "OTHERS",
             id: "ITEM_CONDITION",
             value_id: "2230284",
-            value_name: "Nuevo"
+            value_name: "Nuevo",
           },
           {
             id: "MODEL",
@@ -9251,14 +9251,14 @@ const req = {
                 name: "620",
                 struct: null,
                 source: 6808261514773724,
-                id: null
-              }
+                id: null,
+              },
             ],
             attribute_group_name: "Otros",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
-          }
+            source: 6808261514773724,
+          },
         ],
         original_price: null,
         category_id: "MLA49340",
@@ -9271,14 +9271,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 34,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA630191526",
@@ -9296,7 +9296,7 @@ const req = {
             "eshop",
             "credits_profile",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 205422967,
@@ -9308,7 +9308,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/205422967v7c72f1.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -9317,22 +9317,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0033,
-                value: 20
+                value: 20,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0073,
-                value: 41
+                value: 41,
               },
               sales: {
                 period: "60 days",
-                completed: 5668
-              }
+                completed: 5668,
+              },
             },
             transactions: {
               canceled: 1159,
@@ -9341,11 +9341,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 27149
-            }
-          }
+              completed: 27149,
+            },
+          },
         },
         price: 1450,
         prices: {
@@ -9362,10 +9362,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "77",
@@ -9378,17 +9378,17 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-08T03:00:00Z",
                 end_time: "2021-10-09T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4477384-MLA630191526",
-                promotion_type: "deal_of_the_day"
-              }
-            }
+                promotion_type: "deal_of_the_day",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -9399,16 +9399,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:45:25Z",
                 end_time: "2021-10-27T04:45:25Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1275,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:45:25Z"
-            }
+              last_updated: "2021-10-20T04:45:25Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -9428,20 +9428,20 @@ const req = {
           quantity: 12,
           amount: 205.62,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDE2MDBa",
-          city_name: "Villa Pueyrredón"
+          city_name: "Villa Pueyrredón",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -9450,18 +9450,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDE2MDBa",
-            name: "Villa Pueyrredón"
+            name: "Villa Pueyrredón",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -9474,13 +9474,13 @@ const req = {
                 id: "403591",
                 name: "Ombu",
                 struct: null,
-                source: 1577
-              }
+                source: 1577,
+              },
             ],
             attribute_group_id: "OTHERS",
             name: "Marca",
             value_id: "403591",
-            source: 1577
+            source: 1577,
           },
           {
             value_id: "2230284",
@@ -9489,8 +9489,8 @@ const req = {
                 struct: null,
                 source: 1,
                 id: "2230284",
-                name: "Nuevo"
-              }
+                name: "Nuevo",
+              },
             ],
             id: "ITEM_CONDITION",
             name: "Condición del ítem",
@@ -9498,7 +9498,7 @@ const req = {
             attribute_group_name: "Otros",
             source: 1,
             value_name: "Nuevo",
-            value_struct: null
+            value_struct: null,
           },
           {
             value_struct: null,
@@ -9507,8 +9507,8 @@ const req = {
                 id: null,
                 name: "Faja Lumbar",
                 struct: null,
-                source: 1577
-              }
+                source: 1577,
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "MODEL",
@@ -9516,8 +9516,8 @@ const req = {
             value_id: null,
             value_name: "Faja Lumbar",
             attribute_group_name: "Otros",
-            source: 1577
-          }
+            source: 1577,
+          },
         ],
         original_price: null,
         category_id: "MLA393896",
@@ -9531,14 +9531,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "best_seller_candidate"
+          "best_seller_candidate",
         ],
         order_backend: 35,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA682944436",
@@ -9556,7 +9556,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 55602063,
@@ -9568,7 +9568,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/55602063v8b1d0f.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -9577,22 +9577,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0104,
-                value: 15
+                value: 15,
               },
               sales: {
                 period: "60 days",
-                completed: 1436
-              }
+                completed: 1436,
+              },
             },
             transactions: {
               canceled: 480,
@@ -9601,11 +9601,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0.01,
-                positive: 0.99
+                positive: 0.99,
               },
-              completed: 13017
-            }
-          }
+              completed: 13017,
+            },
+          },
         },
         price: 1399,
         prices: {
@@ -9622,18 +9622,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -9653,20 +9653,20 @@ const req = {
           quantity: 12,
           amount: 198.39,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-S",
           state_name: "Santa Fe",
           city_id: "TUxBQ1JPUzg1Yjg3",
-          city_name: "Rosario"
+          city_name: "Rosario",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: [],
           logistic_type: "drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -9675,18 +9675,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-S",
-            name: "Santa Fe"
+            name: "Santa Fe",
           },
           city: {
             id: "TUxBQ1JPUzg1Yjg3",
-            name: "Rosario"
+            name: "Rosario",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -9702,10 +9702,10 @@ const req = {
                 id: "1050063",
                 name: "Lipari",
                 struct: null,
-                source: 1577
-              }
+                source: 1577,
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             value_id: "2230284",
@@ -9719,11 +9719,11 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 1,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_name: "CIZALLA",
@@ -9732,8 +9732,8 @@ const req = {
                 id: null,
                 name: "CIZALLA",
                 struct: null,
-                source: 4060709329251625
-              }
+                source: 4060709329251625,
+              },
             ],
             value_id: null,
             name: "Modelo",
@@ -9741,7 +9741,7 @@ const req = {
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 4060709329251625,
-            id: "MODEL"
+            id: "MODEL",
           },
           {
             id: "PACKAGE_LENGTH",
@@ -9749,7 +9749,7 @@ const req = {
             value_id: null,
             value_struct: {
               unit: "cm",
-              number: 0.1
+              number: 0.1,
             },
             values: [
               {
@@ -9757,15 +9757,15 @@ const req = {
                 name: "0.1 cm",
                 struct: {
                   number: 0.1,
-                  unit: "cm"
+                  unit: "cm",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_name: "Otros",
             source: 4333789534002961,
             value_name: "0.1 cm",
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             name: "Peso del paquete",
@@ -9775,7 +9775,7 @@ const req = {
             id: "PACKAGE_WEIGHT",
             value_struct: {
               number: 10,
-              unit: "g"
+              unit: "g",
             },
             values: [
               {
@@ -9784,12 +9784,12 @@ const req = {
                 name: "10 g",
                 struct: {
                   number: 10,
-                  unit: "g"
-                }
-              }
+                  unit: "g",
+                },
+              },
             ],
             attribute_group_id: "OTHERS",
-            value_name: "10 g"
+            value_name: "10 g",
           },
           {
             attribute_group_id: "OTHERS",
@@ -9803,12 +9803,12 @@ const req = {
                 id: null,
                 name: "3",
                 struct: null,
-                source: 4060709329251625
-              }
+                source: 4060709329251625,
+              },
             ],
             value_struct: null,
-            attribute_group_name: "Otros"
-          }
+            attribute_group_name: "Otros",
+          },
         ],
         original_price: null,
         category_id: "MLA380656",
@@ -9822,14 +9822,14 @@ const req = {
           "brand_verified",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 36,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA739806665",
@@ -9849,22 +9849,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0049,
-                value: 3
+                value: 3,
               },
               sales: {
                 period: "60 days",
-                completed: 683
-              }
+                completed: 683,
+              },
             },
             transactions: {
               canceled: 69,
@@ -9873,11 +9873,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0,
-                positive: 1
+                positive: 1,
               },
-              completed: 2376
-            }
-          }
+              completed: 2376,
+            },
+          },
         },
         price: 1290,
         prices: {
@@ -9894,14 +9894,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -9912,16 +9912,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-13T04:50:31Z",
                 end_time: "2021-10-20T04:50:31Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1200,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-14T19:39:35Z"
-            }
+              last_updated: "2021-10-14T19:39:35Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -9941,20 +9941,20 @@ const req = {
           quantity: 12,
           amount: 182.93,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: null,
-          city_name: "Villa Ballester"
+          city_name: "Villa Ballester",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -9963,18 +9963,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: null,
-            name: "Villa Ballester"
+            name: "Villa Ballester",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -9983,8 +9983,8 @@ const req = {
                 source: 7092,
                 id: null,
                 name: "Paglyu",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 7092,
@@ -9993,7 +9993,7 @@ const req = {
             value_id: null,
             value_name: "Paglyu",
             value_struct: null,
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             attribute_group_name: "Otros",
@@ -10005,14 +10005,14 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             id: "ITEM_CONDITION",
             value_id: "2230284",
             attribute_group_id: "OTHERS",
-            source: 1572
-          }
+            source: 1572,
+          },
         ],
         original_price: null,
         category_id: "MLA378164",
@@ -10028,14 +10028,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 37,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA874063568",
@@ -10055,22 +10055,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 2
+                value: 2,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0086,
-                value: 42
+                value: 42,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0035,
-                value: 16
+                value: 16,
               },
               sales: {
                 period: "60 days",
-                completed: 4663
-              }
+                completed: 4663,
+              },
             },
             transactions: {
               canceled: 969,
@@ -10079,11 +10079,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 29417
-            }
-          }
+              completed: 29417,
+            },
+          },
         },
         price: 2999,
         prices: {
@@ -10100,14 +10100,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -10118,16 +10118,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-15T04:31:22Z",
                 end_time: "2021-10-22T04:31:22Z",
-                eligible: true
+                eligible: true,
               },
               amount: 2849.05,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T04:31:22Z"
-            }
+              last_updated: "2021-10-15T04:31:22Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -10147,20 +10147,20 @@ const req = {
           quantity: 12,
           amount: 425.28,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: null,
-          city_name: "Caballito"
+          city_name: "Caballito",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -10169,18 +10169,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: null,
-            name: "Caballito"
+            name: "Caballito",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -10190,8 +10190,8 @@ const req = {
                 source: 3045741222775799,
                 id: "40652",
                 name: "Nisuta",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             name: "Marca",
             value_id: "40652",
@@ -10199,7 +10199,7 @@ const req = {
             attribute_group_name: "Otros",
             source: 3045741222775799,
             id: "BRAND",
-            value_name: "Nisuta"
+            value_name: "Nisuta",
           },
           {
             id: "ITEM_CONDITION",
@@ -10211,13 +10211,13 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 3045741222775799,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_id: "OTHERS",
             value_struct: null,
             attribute_group_name: "Otros",
-            source: 3045741222775799
+            source: 3045741222775799,
           },
           {
             value_id: "9816028",
@@ -10231,12 +10231,12 @@ const req = {
                 id: "9816028",
                 name: "NSSOTV42D",
                 struct: null,
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
             attribute_group_id: "OTHERS",
-            name: "Modelo"
-          }
+            name: "Modelo",
+          },
         ],
         original_price: null,
         category_id: "MLA41925",
@@ -10252,14 +10252,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 38,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA1108946660",
@@ -10280,22 +10280,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 2
+                value: 2,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0192,
-                value: 1
+                value: 1,
               },
               sales: {
                 period: "60 days",
-                completed: 53
-              }
+                completed: 53,
+              },
             },
             transactions: {
               canceled: 7,
@@ -10304,11 +10304,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0,
-                positive: 1
+                positive: 1,
               },
-              completed: 113
-            }
-          }
+              completed: 113,
+            },
+          },
         },
         price: 1965,
         prices: {
@@ -10325,18 +10325,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -10356,20 +10356,20 @@ const req = {
           quantity: 12,
           amount: 278.65,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: null,
-          city_name: "El Palomar"
+          city_name: "El Palomar",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -10378,18 +10378,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: null,
-            name: "El Palomar"
+            name: "El Palomar",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -10406,9 +10406,9 @@ const req = {
                 source: 1,
                 id: "17587",
                 name: "Razer",
-                struct: null
-              }
-            ]
+                struct: null,
+              },
+            ],
           },
           {
             id: "ITEM_CONDITION",
@@ -10417,8 +10417,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_name: "Otros",
             source: 6808261514773724,
@@ -10426,7 +10426,7 @@ const req = {
             value_id: "2230284",
             value_name: "Nuevo",
             value_struct: null,
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             attribute_group_name: "Otros",
@@ -10435,7 +10435,7 @@ const req = {
             value_id: "2646733",
             value_struct: {
               number: 360,
-              unit: "mm"
+              unit: "mm",
             },
             values: [
               {
@@ -10443,14 +10443,14 @@ const req = {
                 name: "360 mm",
                 struct: {
                   number: 360,
-                  unit: "mm"
+                  unit: "mm",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1,
-            id: "LENGTH"
+            id: "LENGTH",
           },
           {
             name: "Modelo",
@@ -10461,15 +10461,15 @@ const req = {
                 struct: null,
                 source: 1,
                 id: "8873878",
-                name: "Gigantus V2"
-              }
+                name: "Gigantus V2",
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "MODEL",
             value_id: "8873878",
             attribute_group_name: "Otros",
-            source: 1
-          }
+            source: 1,
+          },
         ],
         original_price: null,
         category_id: "MLA1716",
@@ -10481,7 +10481,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -10489,7 +10489,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 39
+        order_backend: 39,
       },
       {
         id: "MLA784433043",
@@ -10507,7 +10507,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 55602063,
@@ -10519,7 +10519,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/55602063v8b1d0f.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -10528,22 +10528,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 1
+                value: 1,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0104,
-                value: 15
+                value: 15,
               },
               sales: {
                 period: "60 days",
-                completed: 1436
-              }
+                completed: 1436,
+              },
             },
             transactions: {
               canceled: 480,
@@ -10552,11 +10552,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0.01,
-                positive: 0.99
+                positive: 0.99,
               },
-              completed: 13017
-            }
-          }
+              completed: 13017,
+            },
+          },
         },
         price: 1290,
         prices: {
@@ -10573,18 +10573,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -10604,20 +10604,20 @@ const req = {
           quantity: 12,
           amount: 182.93,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-S",
           state_name: "Santa Fe",
           city_id: "TUxBQ1JPUzg1Yjg3",
-          city_name: "Rosario"
+          city_name: "Rosario",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: [],
           logistic_type: "drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -10626,18 +10626,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-S",
-            name: "Santa Fe"
+            name: "Santa Fe",
           },
           city: {
             id: "TUxBQ1JPUzg1Yjg3",
-            name: "Rosario"
+            name: "Rosario",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -10647,8 +10647,8 @@ const req = {
                 id: "1050063",
                 name: "Lipari",
                 struct: null,
-                source: 4060709329251625
-              }
+                source: 4060709329251625,
+              },
             ],
             source: 4060709329251625,
             attribute_group_name: "Otros",
@@ -10656,7 +10656,7 @@ const req = {
             value_id: "1050063",
             value_name: "Lipari",
             value_struct: null,
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             value_id: "2230284",
@@ -10665,8 +10665,8 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1572,
@@ -10674,7 +10674,7 @@ const req = {
             name: "Condición del ítem",
             value_name: "Nuevo",
             value_struct: null,
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             values: [
@@ -10682,8 +10682,8 @@ const req = {
                 source: 1572,
                 id: null,
                 name: "C200/300/400 Y CC200/300/400",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_name: "Otros",
             id: "MODEL",
@@ -10692,7 +10692,7 @@ const req = {
             value_name: "C200/300/400 Y CC200/300/400",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            source: 1572
+            source: 1572,
           },
           {
             source: 1572,
@@ -10701,8 +10701,8 @@ const req = {
                 id: null,
                 name: "2",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             attribute_group_id: "OTHERS",
             value_id: null,
@@ -10710,8 +10710,8 @@ const req = {
             value_struct: null,
             attribute_group_name: "Otros",
             id: "UNITS_PER_PACKAGE",
-            name: "Unidades por envase"
-          }
+            name: "Unidades por envase",
+          },
         ],
         original_price: null,
         category_id: "MLA380656",
@@ -10724,14 +10724,14 @@ const req = {
           "brand_verified",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 40,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA916800378",
@@ -10749,7 +10749,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 212298174,
@@ -10761,7 +10761,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/212298174v8f37c4.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -10770,22 +10770,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0026,
-                value: 49
+                value: 49,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0046,
-                value: 85
+                value: 85,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0153,
-                value: 264
+                value: 264,
               },
               sales: {
                 period: "60 days",
-                completed: 17709
-              }
+                completed: 17709,
+              },
             },
             transactions: {
               canceled: 3248,
@@ -10794,11 +10794,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 98533
-            }
-          }
+              completed: 98533,
+            },
+          },
         },
         price: 597,
         prices: {
@@ -10815,14 +10815,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -10833,16 +10833,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-15T04:24:12Z",
                 end_time: "2021-10-22T04:24:12Z",
-                eligible: true
+                eligible: true,
               },
               amount: 550.04,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T04:24:12Z"
-            }
+              last_updated: "2021-10-15T04:24:12Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -10862,20 +10862,20 @@ const req = {
           quantity: 12,
           amount: 84.66,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQk1PTjE2OTBa",
-          city_name: "Monte Castro"
+          city_name: "Monte Castro",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -10884,18 +10884,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQk1PTjE2OTBa",
-            name: "Monte Castro"
+            name: "Monte Castro",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -10906,15 +10906,15 @@ const req = {
                 source: 2860837171021627,
                 id: "2230284",
                 name: "Nuevo",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "ITEM_CONDITION",
             name: "Condición del ítem",
             value_name: "Nuevo",
-            source: 2860837171021627
+            source: 2860837171021627,
           },
           {
             value_id: null,
@@ -10923,8 +10923,8 @@ const req = {
                 id: null,
                 name: "1",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -10932,8 +10932,8 @@ const req = {
             name: "Unidades por envase",
             value_name: "1",
             value_struct: null,
-            source: 2860837171021627
-          }
+            source: 2860837171021627,
+          },
         ],
         original_price: null,
         category_id: "MLA445788",
@@ -10947,14 +10947,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 41,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA922813379",
@@ -10977,7 +10977,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/97439763vedc554.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "gold",
@@ -10986,22 +10986,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               sales: {
                 period: "60 days",
-                completed: 263
-              }
+                completed: 263,
+              },
             },
             transactions: {
               canceled: 58,
@@ -11010,11 +11010,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0,
-                positive: 1
+                positive: 1,
               },
-              completed: 1191
-            }
-          }
+              completed: 1191,
+            },
+          },
         },
         price: 39443.25,
         prices: {
@@ -11031,14 +11031,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -11049,16 +11049,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-13T04:27:21Z",
                 end_time: "2021-10-20T04:27:21Z",
-                eligible: true
+                eligible: true,
               },
               amount: 37565,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T01:11:01Z"
-            }
+              last_updated: "2021-10-15T01:11:01Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -11078,20 +11078,20 @@ const req = {
           quantity: 12,
           amount: 5593.38,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJFTDcyNTJa",
-          city_name: "Belgrano"
+          city_name: "Belgrano",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["mandatory_free_shipping"],
           logistic_type: "drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -11100,18 +11100,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJFTDcyNTJa",
-            name: "Belgrano"
+            name: "Belgrano",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -11122,15 +11122,15 @@ const req = {
                 source: 1,
                 id: "6351",
                 name: "Yamaha",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             source: 1,
             value_id: "6351",
             value_name: "Yamaha",
             value_struct: null,
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_struct: null,
@@ -11142,13 +11142,13 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 5689318823430110
-              }
+                source: 5689318823430110,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "ITEM_CONDITION",
-            name: "Condición del ítem"
+            name: "Condición del ítem",
           },
           {
             value_id: "8742322",
@@ -11158,15 +11158,15 @@ const req = {
                 name: "NS-SW",
                 struct: null,
                 source: 1,
-                id: "8742322"
-              }
+                id: "8742322",
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             source: 1,
             id: "LINE",
             value_struct: null,
-            name: "Línea"
+            name: "Línea",
           },
           {
             id: "MODEL",
@@ -11180,11 +11180,11 @@ const req = {
                 id: "8742324",
                 name: "NS-SW100",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             attribute_group_name: "Otros",
@@ -11193,7 +11193,7 @@ const req = {
             value_name: "12 kg",
             value_struct: {
               number: 12,
-              unit: "kg"
+              unit: "kg",
             },
             values: [
               {
@@ -11201,15 +11201,15 @@ const req = {
                 name: "12 kg",
                 struct: {
                   number: 12,
-                  unit: "kg"
+                  unit: "kg",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             source: 1,
             id: "WEIGHT",
-            value_id: "7367692"
-          }
+            value_id: "7367692",
+          },
         ],
         original_price: null,
         category_id: "MLA431427",
@@ -11222,7 +11222,7 @@ const req = {
           "brand_verified",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -11230,7 +11230,7 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 42
+        order_backend: 42,
       },
       {
         id: "MLA909669116",
@@ -11247,7 +11247,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 432133104,
@@ -11259,7 +11259,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/432133104v5fae08.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -11268,22 +11268,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 2
+                value: 2,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0052,
-                value: 7
+                value: 7,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0047,
-                value: 6
+                value: 6,
               },
               sales: {
                 period: "60 days",
-                completed: 1271
-              }
+                completed: 1271,
+              },
             },
             transactions: {
               canceled: 127,
@@ -11292,11 +11292,11 @@ const req = {
               ratings: {
                 negative: 0.03,
                 neutral: 0.01,
-                positive: 0.96
+                positive: 0.96,
               },
-              completed: 2370
-            }
-          }
+              completed: 2370,
+            },
+          },
         },
         price: 2056.2,
         prices: {
@@ -11313,10 +11313,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "10",
@@ -11329,17 +11329,17 @@ const req = {
                 context_restrictions: ["channel_mshops"],
                 start_time: "2021-10-01T11:19:35Z",
                 end_time: "2021-10-31T03:00:00Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "TR-432133104-202110010719461946:MLA909669116",
-                promotion_type: "custom"
-              }
-            }
+                promotion_type: "custom",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -11350,16 +11350,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-15T04:15:56Z",
                 end_time: "2021-10-22T04:15:56Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1953.39,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-15T04:15:56Z"
-            }
+              last_updated: "2021-10-15T04:15:56Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -11379,20 +11379,20 @@ const req = {
           quantity: 12,
           amount: 291.59,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkZMTzMwNzRa",
-          city_name: "Flores"
+          city_name: "Flores",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -11401,18 +11401,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkZMTzMwNzRa",
-            name: "Flores"
+            name: "Flores",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -11424,14 +11424,14 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             value_name: "Nuevo",
             value_struct: null,
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 1
+            source: 1,
           },
           {
             attribute_group_id: "OTHERS",
@@ -11443,14 +11443,14 @@ const req = {
                 source: 6795511568268166,
                 id: null,
                 name: "12",
-                struct: null
-              }
+                struct: null,
+              },
             ],
             value_id: null,
             value_struct: null,
             attribute_group_name: "Otros",
-            source: 6795511568268166
-          }
+            source: 6795511568268166,
+          },
         ],
         original_price: null,
         category_id: "MLA378397",
@@ -11463,14 +11463,14 @@ const req = {
           "loyalty_discount_eligible",
           "immediate_payment",
           "cart_eligible",
-          "best_seller_candidate"
+          "best_seller_candidate",
         ],
         order_backend: 43,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA738170988",
@@ -11490,22 +11490,22 @@ const req = {
               cancellations: {
                 period: "365 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "365 days",
                 rate: 0.0125,
-                value: 3
+                value: 3,
               },
               delayed_handling_time: {
                 period: "365 days",
                 rate: 0.03,
-                value: 3
+                value: 3,
               },
               sales: {
                 period: "365 days",
-                completed: 222
-              }
+                completed: 222,
+              },
             },
             transactions: {
               canceled: 17,
@@ -11514,11 +11514,11 @@ const req = {
               ratings: {
                 negative: 0,
                 neutral: 0.01,
-                positive: 0.99
+                positive: 0.99,
               },
-              completed: 222
-            }
-          }
+              completed: 222,
+            },
+          },
         },
         price: 800,
         prices: {
@@ -11535,18 +11535,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -11566,20 +11566,20 @@ const req = {
           quantity: 12,
           amount: 113.45,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: null,
-          city_name: "Villa Luro"
+          city_name: "Villa Luro",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: [],
           logistic_type: "xd_drop_off",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -11588,18 +11588,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: null,
-            name: "Villa Luro"
+            name: "Villa Luro",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -11609,8 +11609,8 @@ const req = {
                 name: "Yamaha",
                 struct: null,
                 source: 1,
-                id: "6351"
-              }
+                id: "6351",
+              },
             ],
             name: "Marca",
             value_id: "6351",
@@ -11618,7 +11618,7 @@ const req = {
             value_struct: null,
             attribute_group_name: "Otros",
             source: 1,
-            id: "BRAND"
+            id: "BRAND",
           },
           {
             attribute_group_name: "Otros",
@@ -11629,14 +11629,14 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             attribute_group_id: "OTHERS",
             value_struct: null,
             id: "ITEM_CONDITION",
             value_id: "2230284",
-            value_name: "Nuevo"
+            value_name: "Nuevo",
           },
           {
             value_name: "NS-SW",
@@ -11645,8 +11645,8 @@ const req = {
                 id: "8742322",
                 name: "NS-SW",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 1,
@@ -11654,7 +11654,7 @@ const req = {
             name: "Línea",
             value_id: "8742322",
             value_struct: null,
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             source: 1,
@@ -11667,12 +11667,12 @@ const req = {
                 id: "8742324",
                 name: "NS-SW100",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             value_id: "8742324",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "WEIGHT",
@@ -11683,10 +11683,10 @@ const req = {
                 name: "12 kg",
                 struct: {
                   number: 12,
-                  unit: "kg"
+                  unit: "kg",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1,
@@ -11694,10 +11694,10 @@ const req = {
             value_id: "7367692",
             value_struct: {
               number: 12,
-              unit: "kg"
+              unit: "kg",
             },
-            attribute_group_id: "OTHERS"
-          }
+            attribute_group_id: "OTHERS",
+          },
         ],
         original_price: null,
         category_id: "MLA431427",
@@ -11713,14 +11713,14 @@ const req = {
           "good_quality_thumbnail",
           "incomplete_technical_specs",
           "immediate_payment",
-          "cart_eligible"
+          "cart_eligible",
         ],
         order_backend: 44,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA792326938",
@@ -11738,7 +11738,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 204516496,
@@ -11750,7 +11750,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/204516496v9d2d38.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -11759,22 +11759,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.002,
-                value: 26
+                value: 26,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0118,
-                value: 148
+                value: 148,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0087,
-                value: 100
+                value: 100,
               },
               sales: {
                 period: "60 days",
-                completed: 11975
-              }
+                completed: 11975,
+              },
             },
             transactions: {
               canceled: 4426,
@@ -11783,11 +11783,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 76859
-            }
-          }
+              completed: 76859,
+            },
+          },
         },
         price: 729,
         prices: {
@@ -11804,18 +11804,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -11835,20 +11835,20 @@ const req = {
           quantity: 12,
           amount: 103.38,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJPRTQ0OTRa",
-          city_name: "Boedo"
+          city_name: "Boedo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -11857,18 +11857,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJPRTQ0OTRa",
-            name: "Boedo"
+            name: "Boedo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -11879,15 +11879,15 @@ const req = {
                 id: "-1",
                 name: null,
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             source: 1572,
             id: "CABLE_LENGTH",
             value_name: null,
             value_struct: null,
             attribute_group_id: "",
-            attribute_group_name: ""
+            attribute_group_name: "",
           },
           {
             id: "BRAND",
@@ -11897,15 +11897,15 @@ const req = {
                 id: null,
                 name: "MIYOSHI",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             name: "Marca",
             value_id: null,
             value_struct: null,
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 1572
+            source: 1572,
           },
           {
             id: "ITEM_CONDITION",
@@ -11920,17 +11920,17 @@ const req = {
                 struct: null,
                 source: 1572,
                 id: "2230284",
-                name: "Nuevo"
-              }
+                name: "Nuevo",
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             name: "Largo",
             value_name: "30 cm",
             value_struct: {
               number: 30,
-              unit: "cm"
+              unit: "cm",
             },
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
@@ -11943,11 +11943,11 @@ const req = {
                 name: "30 cm",
                 struct: {
                   unit: "cm",
-                  number: 30
-                }
-              }
+                  number: 30,
+                },
+              },
             ],
-            source: 3376461333454861
+            source: 3376461333454861,
           },
           {
             value_struct: null,
@@ -11961,11 +11961,11 @@ const req = {
                 id: null,
                 name: "B-F019",
                 struct: null,
-                source: 1572
-              }
+                source: 1572,
+              },
             ],
             attribute_group_name: "Otros",
-            source: 1572
+            source: 1572,
           },
           {
             attribute_group_name: "Otros",
@@ -11981,10 +11981,10 @@ const req = {
                 name: "1",
                 struct: null,
                 source: 3376461333454861,
-                id: null
-              }
-            ]
-          }
+                id: null,
+              },
+            ],
+          },
         ],
         original_price: null,
         category_id: "MLA413546",
@@ -11998,14 +11998,14 @@ const req = {
           "brand_verified",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 45,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA901089177",
@@ -12025,22 +12025,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0023,
-                value: 9
+                value: 9,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0066,
-                value: 26
+                value: 26,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0374,
-                value: 138
+                value: 138,
               },
               sales: {
                 period: "60 days",
-                completed: 3614
-              }
+                completed: 3614,
+              },
             },
             transactions: {
               canceled: 1104,
@@ -12049,11 +12049,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.03,
-                positive: 0.95
+                positive: 0.95,
               },
-              completed: 15070
-            }
-          }
+              completed: 15070,
+            },
+          },
         },
         price: 2130,
         prices: {
@@ -12070,14 +12070,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -12088,16 +12088,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:59:30Z",
                 end_time: "2021-10-27T04:59:30Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1915,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:59:30Z"
-            }
+              last_updated: "2021-10-20T04:59:30Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -12117,20 +12117,20 @@ const req = {
           quantity: 12,
           amount: 302.05,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQlZJTDc4MDda",
-          city_name: "Villa del Parque"
+          city_name: "Villa del Parque",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -12139,18 +12139,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQlZJTDc4MDda",
-            name: "Villa del Parque"
+            name: "Villa del Parque",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -12166,10 +12166,10 @@ const req = {
                 id: null,
                 name: "SHOWROOM MAYORISTA",
                 struct: null,
-                source: 7092
-              }
+                source: 7092,
+              },
             ],
-            source: 7092
+            source: 7092,
           },
           {
             attribute_group_id: "OTHERS",
@@ -12184,10 +12184,10 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 7092
-              }
+                source: 7092,
+              },
             ],
-            name: "Condición del ítem"
+            name: "Condición del ítem",
           },
           {
             value_id: null,
@@ -12201,12 +12201,12 @@ const req = {
                 id: null,
                 name: "Joggers",
                 struct: null,
-                source: 7092
-              }
+                source: 7092,
+              },
             ],
             attribute_group_id: "OTHERS",
-            source: 7092
-          }
+            source: 7092,
+          },
         ],
         original_price: null,
         category_id: "MLA109282",
@@ -12221,14 +12221,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 46,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA857053904",
@@ -12245,7 +12245,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 558749458,
@@ -12257,7 +12257,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/558749458va3a23b.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -12266,22 +12266,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0009,
-                value: 6
+                value: 6,
               },
               claims: {
                 period: "60 days",
                 rate: 0.006,
-                value: 37
+                value: 37,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.006,
-                value: 34
+                value: 34,
               },
               sales: {
                 period: "60 days",
-                completed: 5856
-              }
+                completed: 5856,
+              },
             },
             transactions: {
               canceled: 619,
@@ -12290,11 +12290,11 @@ const req = {
               ratings: {
                 negative: 0.03,
                 neutral: 0,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 14613
-            }
-          }
+              completed: 14613,
+            },
+          },
         },
         price: 1400,
         prices: {
@@ -12311,10 +12311,10 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
+              metadata: {},
             },
             {
               id: "47",
@@ -12327,17 +12327,17 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-22T03:00:00Z",
                 end_time: "2021-10-23T02:59:59Z",
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
               metadata: {
                 promotion_id: "4762432-MLA857053904",
-                promotion_type: "deal_of_the_day"
-              }
-            }
+                promotion_type: "deal_of_the_day",
+              },
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -12348,16 +12348,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-19T04:23:23Z",
                 end_time: "2021-10-26T04:23:23Z",
-                eligible: true
+                eligible: true,
               },
               amount: 1274,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-19T04:23:23Z"
-            }
+              last_updated: "2021-10-19T04:23:23Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -12377,20 +12377,20 @@ const req = {
           quantity: 12,
           amount: 198.53,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: null,
-          city_name: "San Justo"
+          city_name: "San Justo",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_out"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -12399,18 +12399,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: null,
-            name: "San Justo"
+            name: "San Justo",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -12422,14 +12422,14 @@ const req = {
                 id: null,
                 name: "Naon",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 6808261514773724,
             value_id: null,
             value_name: "Naon",
-            value_struct: null
+            value_struct: null,
           },
           {
             value_id: "2230284",
@@ -12445,9 +12445,9 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 6808261514773724,
-                id: "2230284"
-              }
-            ]
+                id: "2230284",
+              },
+            ],
           },
           {
             attribute_group_name: "Otros",
@@ -12460,12 +12460,12 @@ const req = {
                 id: null,
                 name: "Tropical Mecanico",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             value_id: null,
             attribute_group_id: "OTHERS",
-            source: 6808261514773724
+            source: 6808261514773724,
           },
           {
             value_struct: null,
@@ -12474,8 +12474,8 @@ const req = {
                 struct: null,
                 source: 6808261514773724,
                 id: "1359391",
-                name: "Unidad"
-              }
+                name: "Unidad",
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 6808261514773724,
@@ -12483,7 +12483,7 @@ const req = {
             name: "Formato de venta",
             value_id: "1359391",
             value_name: "Unidad",
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             attribute_group_name: "Otros",
@@ -12495,14 +12495,14 @@ const req = {
                 id: null,
                 name: "1",
                 struct: null,
-                source: 6808261514773724
-              }
+                source: 6808261514773724,
+              },
             ],
             attribute_group_id: "OTHERS",
             name: "Unidades por pack",
             value_id: null,
-            source: 6808261514773724
-          }
+            source: 6808261514773724,
+          },
         ],
         original_price: null,
         category_id: "MLA4771",
@@ -12515,14 +12515,14 @@ const req = {
           "good_quality_picture",
           "immediate_payment",
           "cart_eligible",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 47,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA838490674",
@@ -12539,7 +12539,7 @@ const req = {
             "eshop",
             "mshops",
             "credits_profile",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 150762899,
@@ -12551,7 +12551,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/150762899v39d830.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -12560,22 +12560,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0063,
-                value: 37
+                value: 37,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0408,
-                value: 231
+                value: 231,
               },
               sales: {
                 period: "60 days",
-                completed: 5624
-              }
+                completed: 5624,
+              },
             },
             transactions: {
               canceled: 1289,
@@ -12584,11 +12584,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.01,
-                positive: 0.98
+                positive: 0.98,
               },
-              completed: 30044
-            }
-          }
+              completed: 30044,
+            },
+          },
         },
         price: 552,
         prices: {
@@ -12605,14 +12605,14 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [
@@ -12623,16 +12623,16 @@ const req = {
                 context_restrictions: ["channel_marketplace"],
                 start_time: "2021-10-20T04:46:07Z",
                 end_time: "2021-10-27T04:46:07Z",
-                eligible: true
+                eligible: true,
               },
               amount: 486,
               currency_id: "ARS",
               exchange_rate_context: "DEFAULT",
               tags: [],
-              last_updated: "2021-10-20T04:46:07Z"
-            }
+              last_updated: "2021-10-20T04:46:07Z",
+            },
           ],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -12652,20 +12652,20 @@ const req = {
           quantity: 12,
           amount: 78.28,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: "TUxBQkJBTDMxMDZa",
-          city_name: "Balvanera"
+          city_name: "Balvanera",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["self_service_in"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -12674,18 +12674,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: "TUxBQkJBTDMxMDZa",
-            name: "Balvanera"
+            name: "Balvanera",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -12693,7 +12693,7 @@ const req = {
             value_name: "1 m",
             value_struct: {
               number: 1,
-              unit: "m"
+              unit: "m",
             },
             attribute_group_name: "Otros",
             source: 2860837171021627,
@@ -12705,12 +12705,12 @@ const req = {
                 name: "1 m",
                 struct: {
                   number: 1,
-                  unit: "m"
+                  unit: "m",
                 },
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             values: [
@@ -12718,8 +12718,8 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 2860837171021627,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 2860837171021627,
@@ -12728,7 +12728,7 @@ const req = {
             value_name: "Nuevo",
             value_id: "2230284",
             value_struct: null,
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             value_struct: null,
@@ -12737,8 +12737,8 @@ const req = {
                 id: null,
                 name: "Lienzo - Tusor Liviano",
                 struct: null,
-                source: 2860837171021627
-              }
+                source: 2860837171021627,
+              },
             ],
             id: "MODEL",
             name: "Modelo",
@@ -12746,8 +12746,8 @@ const req = {
             value_name: "Lienzo - Tusor Liviano",
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
-            source: 2860837171021627
-          }
+            source: 2860837171021627,
+          },
         ],
         original_price: null,
         category_id: "MLA31322",
@@ -12761,14 +12761,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 48,
         use_thumbnail_id: false,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA882838985",
@@ -12788,22 +12788,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0,
-                value: 0
+                value: 0,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0058,
-                value: 3
+                value: 3,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0568,
-                value: 27
+                value: 27,
               },
               sales: {
                 period: "60 days",
-                completed: 491
-              }
+                completed: 491,
+              },
             },
             transactions: {
               canceled: 177,
@@ -12812,11 +12812,11 @@ const req = {
               ratings: {
                 negative: 0.01,
                 neutral: 0.02,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 2997
-            }
-          }
+              completed: 2997,
+            },
+          },
         },
         price: 618.8,
         prices: {
@@ -12833,18 +12833,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -12864,20 +12864,20 @@ const req = {
           quantity: 12,
           amount: 87.75,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-C",
           state_name: "Capital Federal",
           city_id: null,
-          city_name: "Villa Mitre"
+          city_name: "Villa Mitre",
         },
         shipping: {
           free_shipping: false,
           mode: "me2",
           tags: ["fulfillment", "self_service_in"],
           logistic_type: "fulfillment",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -12886,18 +12886,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-C",
-            name: "Capital Federal"
+            name: "Capital Federal",
           },
           city: {
             id: null,
-            name: "Villa Mitre"
+            name: "Villa Mitre",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -12914,9 +12914,9 @@ const req = {
                 name: "AVG PRO",
                 struct: null,
                 source: 3045741222775799,
-                id: null
-              }
-            ]
+                id: null,
+              },
+            ],
           },
           {
             attribute_group_name: "Otros",
@@ -12928,13 +12928,13 @@ const req = {
                 id: "2230284",
                 name: "Nuevo",
                 struct: null,
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
             attribute_group_id: "OTHERS",
             source: 3045741222775799,
             name: "Condición del ítem",
-            value_name: "Nuevo"
+            value_name: "Nuevo",
           },
           {
             attribute_group_id: "OTHERS",
@@ -12947,17 +12947,17 @@ const req = {
                 id: null,
                 name: "PS-1",
                 struct: null,
-                source: 3045741222775799
-              }
+                source: 3045741222775799,
+              },
             ],
             value_id: null,
             attribute_group_name: "Otros",
-            source: 3045741222775799
+            source: 3045741222775799,
           },
           {
             value_struct: {
               number: 16.4,
-              unit: "cm"
+              unit: "cm",
             },
             attribute_group_name: "Otros",
             source: 4333789534002961,
@@ -12967,16 +12967,16 @@ const req = {
               {
                 struct: {
                   number: 16.4,
-                  unit: "cm"
+                  unit: "cm",
                 },
                 source: 4333789534002961,
                 id: null,
-                name: "16.4 cm"
-              }
+                name: "16.4 cm",
+              },
             ],
             attribute_group_id: "OTHERS",
             id: "PACKAGE_LENGTH",
-            value_name: "16.4 cm"
+            value_name: "16.4 cm",
           },
           {
             values: [
@@ -12985,22 +12985,22 @@ const req = {
                 name: "260 g",
                 struct: {
                   number: 260,
-                  unit: "g"
+                  unit: "g",
                 },
-                source: 4333789534002961
-              }
+                source: 4333789534002961,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             value_name: "260 g",
             value_struct: {
               number: 260,
-              unit: "g"
+              unit: "g",
             },
             source: 4333789534002961,
             id: "PACKAGE_WEIGHT",
             name: "Peso del paquete",
-            value_id: null
+            value_id: null,
           },
           {
             name: "Unidades por envase",
@@ -13016,10 +13016,10 @@ const req = {
                 id: null,
                 name: "1",
                 struct: null,
-                source: 3045741222775799
-              }
-            ]
-          }
+                source: 3045741222775799,
+              },
+            ],
+          },
         ],
         original_price: null,
         category_id: "MLA413546",
@@ -13034,14 +13034,14 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         order_backend: 49,
         use_thumbnail_id: true,
         offer_score: null,
         offer_share: null,
         match_score: null,
-        winner_item_id: null
+        winner_item_id: null,
       },
       {
         id: "MLA1108994617",
@@ -13060,7 +13060,7 @@ const req = {
             "credits_profile",
             "eshop",
             "mshops",
-            "messages_as_seller"
+            "messages_as_seller",
           ],
           eshop: {
             seller: 91988078,
@@ -13072,7 +13072,7 @@ const req = {
               "http://resources.mlstatic.com/eshops/91988078ve5d9ac.png",
             eshop_status_id: 1,
             eshop_experience: 0,
-            eshop_locations: []
+            eshop_locations: [],
           },
           seller_reputation: {
             power_seller_status: "platinum",
@@ -13081,22 +13081,22 @@ const req = {
               cancellations: {
                 period: "60 days",
                 rate: 0.0025,
-                value: 52
+                value: 52,
               },
               claims: {
                 period: "60 days",
                 rate: 0.0081,
-                value: 168
+                value: 168,
               },
               delayed_handling_time: {
                 period: "60 days",
                 rate: 0.0399,
-                value: 779
+                value: 779,
               },
               sales: {
                 period: "60 days",
-                completed: 19643
-              }
+                completed: 19643,
+              },
             },
             transactions: {
               canceled: 6182,
@@ -13105,11 +13105,11 @@ const req = {
               ratings: {
                 negative: 0.02,
                 neutral: 0.01,
-                positive: 0.97
+                positive: 0.97,
               },
-              completed: 114768
-            }
-          }
+              completed: 114768,
+            },
+          },
         },
         price: 3699,
         prices: {
@@ -13126,18 +13126,18 @@ const req = {
                 context_restrictions: [],
                 start_time: null,
                 end_time: null,
-                eligible: true
+                eligible: true,
               },
               exchange_rate_context: "DEFAULT",
-              metadata: {}
-            }
+              metadata: {},
+            },
           ],
           presentation: {
-            display_currency: "ARS"
+            display_currency: "ARS",
           },
           payment_method_prices: [],
           reference_prices: [],
-          purchase_discounts: []
+          purchase_discounts: [],
         },
         sale_price: null,
         currency_id: "ARS",
@@ -13157,20 +13157,20 @@ const req = {
           quantity: 12,
           amount: 524.55,
           rate: 70.17,
-          currency_id: "ARS"
+          currency_id: "ARS",
         },
         address: {
           state_id: "AR-B",
           state_name: "Buenos Aires",
           city_id: "TUxBQ01PUmI1NTBj",
-          city_name: "Morón"
+          city_name: "Morón",
         },
         shipping: {
           free_shipping: true,
           mode: "me2",
           tags: ["self_service_in", "mandatory_free_shipping"],
           logistic_type: "cross_docking",
-          store_pick_up: false
+          store_pick_up: false,
         },
         seller_address: {
           id: "",
@@ -13179,18 +13179,18 @@ const req = {
           zip_code: "",
           country: {
             id: "AR",
-            name: "Argentina"
+            name: "Argentina",
           },
           state: {
             id: "AR-B",
-            name: "Buenos Aires"
+            name: "Buenos Aires",
           },
           city: {
             id: "TUxBQ01PUmI1NTBj",
-            name: "Morón"
+            name: "Morón",
           },
           latitude: "",
-          longitude: ""
+          longitude: "",
         },
         attributes: [
           {
@@ -13207,9 +13207,9 @@ const req = {
                 id: "448156",
                 name: "HyperX",
                 struct: null,
-                source: 1
-              }
-            ]
+                source: 1,
+              },
+            ],
           },
           {
             value_id: "8035173",
@@ -13219,15 +13219,15 @@ const req = {
                 id: "8035173",
                 name: "HX-MPFS-XL",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             id: "DETAILED_MODEL",
             value_name: "HX-MPFS-XL",
             source: 1,
-            name: "Modelo detallado"
+            name: "Modelo detallado",
           },
           {
             source: 6808261514773724,
@@ -13242,10 +13242,10 @@ const req = {
                 name: "Nuevo",
                 struct: null,
                 source: 6808261514773724,
-                id: "2230284"
-              }
+                id: "2230284",
+              },
             ],
-            attribute_group_name: "Otros"
+            attribute_group_name: "Otros",
           },
           {
             id: "LENGTH",
@@ -13256,10 +13256,10 @@ const req = {
                 name: "900 mm",
                 struct: {
                   number: 900,
-                  unit: "mm"
+                  unit: "mm",
                 },
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_name: "Otros",
             source: 1,
@@ -13267,9 +13267,9 @@ const req = {
             value_id: "3175984",
             value_struct: {
               number: 900,
-              unit: "mm"
+              unit: "mm",
             },
-            attribute_group_id: "OTHERS"
+            attribute_group_id: "OTHERS",
           },
           {
             source: 1,
@@ -13281,13 +13281,13 @@ const req = {
                 id: "4345936",
                 name: "Fury S Pro",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
             attribute_group_id: "OTHERS",
             attribute_group_name: "Otros",
             name: "Línea",
-            value_struct: null
+            value_struct: null,
           },
           {
             id: "MODEL",
@@ -13302,11 +13302,11 @@ const req = {
                 id: "18856",
                 name: "Standard",
                 struct: null,
-                source: 1
-              }
+                source: 1,
+              },
             ],
-            attribute_group_id: "OTHERS"
-          }
+            attribute_group_id: "OTHERS",
+          },
         ],
         original_price: null,
         category_id: "MLA1716",
@@ -13319,7 +13319,7 @@ const req = {
           "immediate_payment",
           "cart_eligible",
           "best_seller_candidate",
-          "shipping_guaranteed"
+          "shipping_guaranteed",
         ],
         catalog_listing: true,
         use_thumbnail_id: true,
@@ -13327,22 +13327,22 @@ const req = {
         offer_share: null,
         match_score: null,
         winner_item_id: null,
-        order_backend: 50
-      }
+        order_backend: 50,
+      },
     ],
     sort: {
       id: "relevance",
-      name: "More relevant"
+      name: "More relevant",
     },
     available_sorts: [
       {
         id: "price_asc",
-        name: "Lower price"
+        name: "Lower price",
       },
       {
         id: "price_desc",
-        name: "Higher price"
-      }
+        name: "Higher price",
+      },
     ],
     filters: [],
     available_filters: [
@@ -13354,149 +13354,149 @@ const req = {
           {
             id: "MLA1574",
             name: "Hogar, Muebles y Jardín",
-            results: 45577
+            results: 45577,
           },
           {
             id: "MLA1000",
             name: "Electrónica, Audio y Video",
-            results: 570
+            results: 570,
           },
           {
             id: "MLA1430",
             name: "Ropa y Accesorios",
-            results: 48965
+            results: 48965,
           },
           {
             id: "MLA1276",
             name: "Deportes y Fitness",
-            results: 26964
+            results: 26964,
           },
           {
             id: "MLA1368",
             name: "Arte, Librería y Mercería",
-            results: 22680
+            results: 22680,
           },
           {
             id: "MLA5725",
             name: "Accesorios para Vehículos",
-            results: 19280
+            results: 19280,
           },
           {
             id: "MLA1499",
             name: "Industrias y Oficinas",
-            results: 16046
+            results: 16046,
           },
           {
             id: "MLA1132",
             name: "Juegos y Juguetes",
-            results: 11761
+            results: 11761,
           },
           {
             id: "MLA9304",
             name: "Souvenirs, Cotillón y Fiestas",
-            results: 10200
+            results: 10200,
           },
           {
             id: "MLA1384",
             name: "Bebés",
-            results: 7802
+            results: 7802,
           },
           {
             id: "MLA1648",
             name: "Computación",
-            results: 6455
+            results: 6455,
           },
           {
             id: "MLA409431",
             name: "Salud y Equipamiento Médico",
-            results: 5928
+            results: 5928,
           },
           {
             id: "MLA3025",
             name: "Libros, Revistas y Comics",
-            results: 2840
+            results: 2840,
           },
           {
             id: "MLA1246",
             name: "Belleza y Cuidado Personal",
-            results: 2723
+            results: 2723,
           },
           {
             id: "MLA407134",
             name: "Herramientas",
-            results: 2200
+            results: 2200,
           },
           {
             id: "MLA5726",
             name: "Electrodomésticos y Aires Ac.",
-            results: 1885
+            results: 1885,
           },
           {
             id: "MLA1500",
             name: "Construcción",
-            results: 1760
+            results: 1760,
           },
           {
             id: "MLA1182",
             name: "Instrumentos Musicales",
-            results: 1492
+            results: 1492,
           },
           {
             id: "MLA1367",
             name: "Antigüedades y Colecciones",
-            results: 1400
+            results: 1400,
           },
           {
             id: "MLA1071",
             name: "Animales y Mascotas",
-            results: 1080
+            results: 1080,
           },
           {
             id: "MLA3937",
             name: "Joyas y Relojes",
-            results: 960
+            results: 960,
           },
           {
             id: "MLA1051",
             name: "Celulares y Teléfonos",
-            results: 680
+            results: 680,
           },
           {
             id: "MLA1039",
             name: "Cámaras y Accesorios",
-            results: 520
+            results: 520,
           },
           {
             id: "MLA1512",
             name: "Agro",
-            results: 120
+            results: 120,
           },
           {
             id: "MLA1403",
             name: "Alimentos y Bebidas",
-            results: 120
+            results: 120,
           },
           {
             id: "MLA1168",
             name: "Música, Películas y Series",
-            results: 120
+            results: 120,
           },
           {
             id: "MLA1144",
             name: "Consolas y Videojuegos",
-            results: 80
+            results: 80,
           },
           {
             id: "MLA2547",
             name: "Entradas para Eventos",
-            results: 40
+            results: 40,
           },
           {
             id: "MLA1953",
             name: "Otras categorías",
-            results: 480
-          }
-        ]
+            results: 480,
+          },
+        ],
       },
       {
         id: "official_store",
@@ -13506,44 +13506,44 @@ const req = {
           {
             id: "all",
             name: "Todas las tiendas oficiales",
-            results: 5529
+            results: 5529,
           },
           {
             id: "370",
             name: "Thonet Vander",
-            results: 2
+            results: 2,
           },
           {
             id: "945",
             name: "Gadnic",
-            results: 2
+            results: 2,
           },
           {
             id: "1859",
             name: "Farmacias Selma",
-            results: 41
+            results: 41,
           },
           {
             id: "2098",
             name: "Mercado Libre Supermercado",
-            results: 41
+            results: 41,
           },
           {
             id: "1519",
             name: "KenBrown",
-            results: 1
+            results: 1,
           },
           {
             id: "173",
             name: "Prestigio",
-            results: 1
+            results: 1,
           },
           {
             id: "2204",
             name: "Elite Professional",
-            results: 1
-          }
-        ]
+            results: 1,
+          },
+        ],
       },
       {
         id: "discount",
@@ -13553,34 +13553,34 @@ const req = {
           {
             id: "5-100",
             name: "Desde 5% OFF",
-            results: 4331
+            results: 4331,
           },
           {
             id: "10-100",
             name: "Desde 10% OFF",
-            results: 1969
+            results: 1969,
           },
           {
             id: "15-100",
             name: "Desde 15% OFF",
-            results: 1247
+            results: 1247,
           },
           {
             id: "20-100",
             name: "Desde 20% OFF",
-            results: 644
+            results: 644,
           },
           {
             id: "25-100",
             name: "Desde 25% OFF",
-            results: 444
+            results: 444,
           },
           {
             id: "30-100",
             name: "Desde 30% OFF",
-            results: 243
-          }
-        ]
+            results: 243,
+          },
+        ],
       },
       {
         id: "state",
@@ -13590,139 +13590,139 @@ const req = {
           {
             id: "TUxBUENBUGw3M2E1",
             name: "Capital Federal",
-            results: 93265
+            results: 93265,
           },
           {
             id: "TUxBUEdSQWVmNTVm",
             name: "Bs.As. G.B.A. Oeste",
-            results: 31743
+            results: 31743,
           },
           {
             id: "TUxBUEdSQXJlMDNm",
             name: "Bs.As. G.B.A. Sur",
-            results: 22243
+            results: 22243,
           },
           {
             id: "TUxBUEdSQWU4ZDkz",
             name: "Bs.As. G.B.A. Norte",
-            results: 20487
+            results: 20487,
           },
           {
             id: "TUxBUENPUmFkZGIw",
             name: "Córdoba",
-            results: 7322
+            results: 7322,
           },
           {
             id: "TUxBUFNBTmU5Nzk2",
             name: "Santa Fe",
-            results: 5082
+            results: 5082,
           },
           {
             id: "TUxBUFpPTmFpbnRl",
             name: "Buenos Aires Interior",
-            results: 4721
+            results: 4721,
           },
           {
             id: "TUxBUENPU2ExMmFkMw",
             name: "Bs.As. Costa Atlántica",
-            results: 2561
+            results: 2561,
           },
           {
             id: "TUxBUENIVXQxNDM1MQ",
             name: "Chubut",
-            results: 2280
+            results: 2280,
           },
           {
             id: "TUxBUE1FTmE5OWQ4",
             name: "Mendoza",
-            results: 1681
+            results: 1681,
           },
           {
             id: "TUxBUFRVQ244NmM3",
             name: "Tucumán",
-            results: 1280
+            results: 1280,
           },
           {
             id: "TUxBUEVOVHMzNTdm",
             name: "Entre Ríos",
-            results: 800
+            results: 800,
           },
           {
             id: "TUxBUE1JU3MzNjIx",
             name: "Misiones",
-            results: 720
+            results: 720,
           },
           {
             id: "TUxBUFLNT29iZmZm",
             name: "Río Negro",
-            results: 560
+            results: 560,
           },
           {
             id: "TUxBUENPUnM5MjI0",
             name: "Corrientes",
-            results: 520
+            results: 520,
           },
           {
             id: "TUxBUFNBTm5lYjU4",
             name: "San Juan",
-            results: 480
+            results: 480,
           },
           {
             id: "TUxBUFNBTGFjMTJi",
             name: "Salta",
-            results: 400
+            results: 400,
           },
           {
             id: "TUxBUE5FVW4xMzMzNQ",
             name: "Neuquén",
-            results: 320
+            results: 320,
           },
           {
             id: "TUxBUENIQW8xMTNhOA",
             name: "Chaco",
-            results: 280
+            results: 280,
           },
           {
             id: "TUxBUFNBTm9lOTlk",
             name: "Santiago del Estero",
-            results: 200
+            results: 200,
           },
           {
             id: "TUxBUExBWmE1OWMy",
             name: "La Pampa",
-            results: 160
+            results: 160,
           },
           {
             id: "TUxBUFNBTnM0ZTcz",
             name: "San Luis",
-            results: 160
+            results: 160,
           },
           {
             id: "TUxBUEpVSnk3YmUz",
             name: "Jujuy",
-            results: 120
+            results: 120,
           },
           {
             id: "TUxBUFNBTno3ZmY5",
             name: "Santa Cruz",
-            results: 120
+            results: 120,
           },
           {
             id: "TUxBUExBWmEyNzY0",
             name: "La Rioja",
-            results: 80
+            results: 80,
           },
           {
             id: "TUxBUENBVGFiY2Fm",
             name: "Catamarca",
-            results: 40
+            results: 40,
           },
           {
             id: "TUxBUEZPUmE1OTk5",
             name: "Formosa",
-            results: 40
-          }
-        ]
+            results: 40,
+          },
+        ],
       },
       {
         id: "price",
@@ -13732,19 +13732,19 @@ const req = {
           {
             id: "*-1000.0",
             name: "Up to $1.000",
-            results: 50591
+            results: 50591,
           },
           {
             id: "1000.0-5000.0",
             name: "$1.000 to $5.000",
-            results: 81894
+            results: 81894,
           },
           {
             id: "5000.0-*",
             name: "More than $5.000",
-            results: 66695
-          }
-        ]
+            results: 66695,
+          },
+        ],
       },
       {
         id: "accepts_mercadopago",
@@ -13754,9 +13754,9 @@ const req = {
           {
             id: "yes",
             name: "With MercadoPago",
-            results: 199180
-          }
-        ]
+            results: 199180,
+          },
+        ],
       },
       {
         id: "installments",
@@ -13766,14 +13766,14 @@ const req = {
           {
             id: "yes",
             name: "Installments",
-            results: 198980
+            results: 198980,
           },
           {
             id: "no_interest",
             name: "Sin interés",
-            results: 33648
-          }
-        ]
+            results: 33648,
+          },
+        ],
       },
       {
         id: "shipping",
@@ -13783,14 +13783,14 @@ const req = {
           {
             id: "mercadoenvios",
             name: "Mercado Envíos",
-            results: 174657
+            results: 174657,
           },
           {
             id: "fulfillment",
             name: "Full",
-            results: 1908
-          }
-        ]
+            results: 1908,
+          },
+        ],
       },
       {
         id: "power_seller",
@@ -13800,9 +13800,9 @@ const req = {
           {
             id: "yes",
             name: "Best sellers",
-            results: 94177
-          }
-        ]
+            results: 94177,
+          },
+        ],
       },
       {
         id: "since",
@@ -13812,9 +13812,9 @@ const req = {
           {
             id: "today",
             name: "Publicados hoy",
-            results: 442
-          }
-        ]
+            results: 442,
+          },
+        ],
       },
       {
         id: "until",
@@ -13824,9 +13824,9 @@ const req = {
           {
             id: "today",
             name: "Ending today",
-            results: 120
-          }
-        ]
+            results: 120,
+          },
+        ],
       },
       {
         id: "has_video",
@@ -13836,9 +13836,9 @@ const req = {
           {
             id: "yes",
             name: "Publications with video",
-            results: 17223
-          }
-        ]
+            results: 17223,
+          },
+        ],
       },
       {
         id: "has_pictures",
@@ -13848,9 +13848,9 @@ const req = {
           {
             id: "yes",
             name: "With pictures",
-            results: 199100
-          }
-        ]
+            results: 199100,
+          },
+        ],
       },
       {
         id: "adult_content",
@@ -13860,9 +13860,9 @@ const req = {
           {
             id: "yes",
             name: "Adult content",
-            results: 162
-          }
-        ]
+            results: 162,
+          },
+        ],
       },
       {
         id: "all_payment_methods_discount",
@@ -13872,19 +13872,19 @@ const req = {
           {
             id: "5-100",
             name: "Desde 5% OFF",
-            results: 241
+            results: 241,
           },
           {
             id: "10-100",
             name: "Desde 10% OFF",
-            results: 201
+            results: 201,
           },
           {
             id: "15-100",
             name: "Desde 15% OFF",
-            results: 81
-          }
-        ]
+            results: 81,
+          },
+        ],
       },
       {
         id: "price_campaign_id",
@@ -13894,19 +13894,19 @@ const req = {
           {
             id: "MLA3411",
             name: "MLA3411",
-            results: 3
+            results: 3,
           },
           {
             id: "MLA6713",
             name: "MLA6713",
-            results: 3
+            results: 3,
           },
           {
             id: "P-MLA1951001",
             name: "P-MLA1951001",
-            results: 1
-          }
-        ]
+            results: 1,
+          },
+        ],
       },
       {
         id: "promotion_type",
@@ -13916,14 +13916,14 @@ const req = {
           {
             id: "deal_of_the_day",
             name: "Oferta del día",
-            results: 1
+            results: 1,
           },
           {
             id: "lightning",
             name: "Oferta relámpago",
-            results: 1
-          }
-        ]
+            results: 1,
+          },
+        ],
       },
       {
         id: "shipping_cost",
@@ -13933,9 +13933,9 @@ const req = {
           {
             id: "free",
             name: "Gratis",
-            results: 65904
-          }
-        ]
+            results: 65904,
+          },
+        ],
       },
       {
         id: "ITEM_CONDITION",
@@ -13945,23 +13945,23 @@ const req = {
           {
             id: "2230284",
             name: "Nuevo",
-            results: 172263
+            results: 172263,
           },
           {
             id: "2230581",
             name: "Usado",
-            results: 25545
-          }
-        ]
-      }
-    ]
-  }
+            results: 25545,
+          },
+        ],
+      },
+    ],
+  },
 };
 
 const response = {
   author: {
     name: "Bel",
-    lastname: "Rey"
+    lastname: "Rey",
   },
   categories: [
     "Hogar, Muebles y Jardín",
@@ -13991,7 +13991,7 @@ const response = {
     "Consolas y Videojuegos",
     "Música, Películas y Series",
     "Entradas para Eventos",
-    "Otras categorías"
+    "Otras categorías",
   ],
   items: [
     {
@@ -14000,11 +14000,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 41359,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_633442-MLA40745461953_022020-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA831564005",
@@ -14012,11 +14012,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1399,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_865245-MLA47248672151_082021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA1100848536",
@@ -14024,11 +14024,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 64999,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_862772-MLA40527019658_012020-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA850236577",
@@ -14036,11 +14036,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 3499,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_994368-MLA41116818737_032020-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA1108957272",
@@ -14048,11 +14048,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 192,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_847603-MLA46833818492_072021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA859227471",
@@ -14060,11 +14060,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 2174,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_817153-MLA44985614987_022021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA1108836503",
@@ -14072,11 +14072,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 4699,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_903457-MLA44093500560_112020-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA854199449",
@@ -14084,23 +14084,23 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1190,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_764908-MLA41734624507_052020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA923074996",
       title: "Barbijo N95 3m Mascarilla Certificación Niosh X 6 Unidades",
       price: {
         currency: "ARS",
-        amount: 2392.5,
-        decimals: "0.50"
+        amount: 2392,
+        decimals: "50",
       },
       picture: "http://http2.mlstatic.com/D_930231-MLA47572917422_092021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA1103264355",
@@ -14109,11 +14109,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 5128,
-        decimals: "0.00"
+        decimals: "0.00",
       },
       picture: "http://http2.mlstatic.com/D_979535-MLA41510685963_042020-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA1108978424",
@@ -14122,11 +14122,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1760,
-        decimals: "0.00"
+        decimals: "0.00",
       },
       picture: "http://http2.mlstatic.com/D_856496-MLA40733117105_022020-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA900681605",
@@ -14134,11 +14134,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 730,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_621756-MLA44308995482_122020-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA925419205",
@@ -14146,11 +14146,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 479,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_905927-MLA45376087039_032021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA902687408",
@@ -14158,11 +14158,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1163,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_659502-MLA47231761272_082021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA859228650",
@@ -14170,11 +14170,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1957,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_951320-MLA44985550886_022021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA886791270",
@@ -14182,11 +14182,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1090,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_775257-MLA43990561158_112020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA920426859",
@@ -14194,11 +14194,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 2999,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_686328-MLA44047177598_112020-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA923361483",
@@ -14206,12 +14206,12 @@ const response = {
         "Silla De Escritorio De Outlet Diva Ergonómica  Negra Con Tapizado De Marathon",
       price: {
         currency: "ARS",
-        amount: 12821.6,
-        decimals: "0.60"
+        amount: 12821,
+        decimals: "60",
       },
       picture: "http://http2.mlstatic.com/D_695659-MLA46217963329_052021-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA883606168",
@@ -14219,11 +14219,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 2100,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_660958-MLA43745420587_102020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA883244390",
@@ -14231,11 +14231,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 601,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_633185-MLA47585996974_092021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA874608431",
@@ -14243,11 +14243,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 829,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_776110-MLA29517843926_022019-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA824915907",
@@ -14255,11 +14255,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 6499,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_805860-MLA32501508425_102019-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA907751508",
@@ -14267,11 +14267,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1999,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_792905-MLA44847711580_022021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA901148116",
@@ -14279,23 +14279,23 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1390,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_609240-MLA44339208062_122020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA904122962",
       title: "Filtro Anti Pop Doble Tela Con Brazo Metálico Acc Ps-1",
       price: {
         currency: "ARS",
-        amount: 670.54,
-        decimals: "0.54"
+        amount: 670,
+        decimals: "54",
       },
       picture: "http://http2.mlstatic.com/D_959603-MLA44573884885_012021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA824913678",
@@ -14303,11 +14303,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 9999,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_918562-MLA32503736566_102019-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA732966233",
@@ -14315,11 +14315,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 13499,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_961888-MLA25961995622_092017-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA860835205",
@@ -14327,11 +14327,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 2174,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_985698-MLA45449647986_042021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA880570772",
@@ -14339,11 +14339,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 139,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_687844-MLU47592635637_092021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA856480998",
@@ -14351,11 +14351,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 355,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_835416-MLA44110781502_112020-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA820413531",
@@ -14363,11 +14363,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1790,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_747080-MLA41652625260_052020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA933154286",
@@ -14375,11 +14375,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1850,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_997045-MLA47010781564_082021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA919942038",
@@ -14387,11 +14387,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 14999,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_946514-MLA32541827736_102019-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA856484195",
@@ -14399,11 +14399,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 400,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_704577-MLA47005667233_082021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA630191526",
@@ -14411,11 +14411,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1450,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_952241-MLA40752450051_022020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA682944436",
@@ -14423,11 +14423,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1399,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_894585-MLA31098367826_062019-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA739806665",
@@ -14435,11 +14435,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1290,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_920860-MLA44311585389_122020-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA874063568",
@@ -14447,11 +14447,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 2999,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_844980-MLA43205261619_082020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA1108946660",
@@ -14460,11 +14460,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1965,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_867720-MLA46797347246_072021-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA784433043",
@@ -14472,11 +14472,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1290,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_612921-MLA45295006484_032021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA916800378",
@@ -14484,35 +14484,35 @@ const response = {
       price: {
         currency: "ARS",
         amount: 597,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_879183-MLA47208194544_082021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA922813379",
       title: "Parlante Yamaha Ns-sw100 Black 110v-120v/220v-240v",
       price: {
         currency: "ARS",
-        amount: 39443.25,
-        decimals: "0.25"
+        amount: 39443,
+        decimals: "0.25",
       },
       picture: "http://http2.mlstatic.com/D_837069-MLA46088822971_052021-I.jpg",
       condition: "new",
-      free_shipping: true
+      free_shipping: true,
     },
     {
       id: "MLA909669116",
       title: "Tira De Enredadera X 12unidad Hiedra Artificial 2,20mt Muro",
       price: {
         currency: "ARS",
-        amount: 2056.2,
-        decimals: "0.20"
+        amount: 2056,
+        decimals: "20",
       },
       picture: "http://http2.mlstatic.com/D_664520-MLA40050411300_122019-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA738170988",
@@ -14520,11 +14520,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 800,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_759529-MLA41711482845_052020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA792326938",
@@ -14532,11 +14532,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 729,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_886117-MLA31356657763_072019-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA901089177",
@@ -14544,11 +14544,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 2130,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_762451-MLA47939555562_102021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA857053904",
@@ -14556,11 +14556,11 @@ const response = {
       price: {
         currency: "ARS",
         amount: 1400,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_746326-MLA44001123044_112020-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA838490674",
@@ -14568,23 +14568,23 @@ const response = {
       price: {
         currency: "ARS",
         amount: 552,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_669090-MLA47775433026_102021-O.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA882838985",
       title: "Anti Pop Filtro Avg Pro Doble Tela Radio Grabacion Streaming",
       price: {
         currency: "ARS",
-        amount: 618.8,
-        decimals: "0.80"
+        amount: 618,
+        decimals: "80",
       },
       picture: "http://http2.mlstatic.com/D_908076-MLA43691492993_102020-I.jpg",
       condition: "new",
-      free_shipping: false
+      free_shipping: false,
     },
     {
       id: "MLA1108994617",
@@ -14593,13 +14593,13 @@ const response = {
       price: {
         currency: "ARS",
         amount: 3699,
-        decimals: "0.00"
+        decimals: "00",
       },
       picture: "http://http2.mlstatic.com/D_731823-MLA46797156040_072021-I.jpg",
       condition: "new",
-      free_shipping: true
-    }
-  ]
+      free_shipping: true,
+    },
+  ],
 };
 
 export { req, response };

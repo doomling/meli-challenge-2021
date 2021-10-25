@@ -1,7 +1,7 @@
 import { jest } from "@jest/globals";
 import axios from "axios";
 jest.mock("axios");
-import ListItemService from "./../services/listItemService.js";
+import ListItemService from "../services/listItemService.js";
 const ListItemInstance = new ListItemService();
 import { req, response } from "./__mocks__/items.js";
 

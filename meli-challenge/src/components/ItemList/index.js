@@ -5,7 +5,7 @@ import "./style.scss";
 const ItemList = ({ data, category, search }) => {
   return (
     <div className="item-list-wrapper">
-      {data && (
+      {category && (
         <Breadcrum
           category={category.name}
           search={search.slice(search.indexOf("=") + 1, search.length)}
@@ -13,7 +13,7 @@ const ItemList = ({ data, category, search }) => {
       )}
       <section className="item-list-container">
         {data ? (
-          data.map(item => {
+          data.map((item) => {
             return <Item data={item} key={item.id} />;
           })
         ) : (

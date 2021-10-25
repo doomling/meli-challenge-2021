@@ -26,5 +26,5 @@ it("renders with or without a name", () => {
     "Smart Tv Hitachi Cdh-le40smart17 Led Full Hd 40  100v/240v"
   );
 
-  expect(container.querySelector(".item-price").textContent).toBe("$41359");
+  expect(container.querySelector(".item-price").textContent).toBe("$ 4135900");
 });

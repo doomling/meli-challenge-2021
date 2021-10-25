@@ -1,7 +1,6 @@
 import { React } from "react";
 import Breadcrum from "./../Breadcrum";
 import "./style.scss";
-import { itemDetailData } from "../../tests/__mocks__/mockedData";
 
 const ItemDetail = ({ data }) => {
   const {
@@ -11,12 +10,12 @@ const ItemDetail = ({ data }) => {
     title,
     price,
     description,
-    category
+    category,
   } = data;
 
   return (
     <section className="item-detail-wrapper">
-      <Breadcrum category={category.name} search={title} />
+      {category && <Breadcrum category={category.name} search={title} />}
       {data && (
         <div className="item-detail-box">
           <div className="item-detail-container">

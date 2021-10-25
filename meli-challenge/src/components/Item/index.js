@@ -3,12 +3,14 @@ import { useHistory } from "react-router-dom";
 
 const Item = ({ data }) => {
   const { id, title, picture, price, free_shipping } = data;
-  const { currency, amount, decimals } = price;
+  const { amount, decimals } = price;
   const history = useHistory();
 
   const handleClick = () => {
     history.push(`/items/${id ?? ""}`);
   };
+
+  console.log(decimals);
 
   return (
     <div className="item-container" onClick={handleClick}>
